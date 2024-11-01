@@ -1,0 +1,12 @@
+<div class="wgpwpp-notice {$type}">
+    <div style="white-space: nowrap;">
+        <i class="fa-solid {$icon_code}"></i>
+        <span class="wgpwpp-notice-description">{$description|noescape}</span>
+    </div>
+    <div style="flex-grow: 2;">
+        {$message|noescape}
+    </div>
+    <div style="display: {$dismiss ? 'block' : 'none'};">
+        <i onclick="wgpwpp_dismiss_notice(this);" class="fa-solid fa-xmark" style="cursor: pointer;"></i>
+    </div>
+</div>

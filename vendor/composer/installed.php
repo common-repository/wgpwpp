@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => '__root__',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '76ed75ab8e3ae2d3c0d9b87fdf775882bf596fba',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        '__root__' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '76ed75ab8e3ae2d3c0d9b87fdf775882bf596fba',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'latte/latte' => array(
+            'pretty_version' => 'v2.11.6',
+            'version' => '2.11.6.0',
+            'reference' => 'af4dbb23a6044b1cf4904830a9b00246318c93d4',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../latte/latte',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'mlocati/ip-lib' => array(
+            'pretty_version' => '1.18.0',
+            'version' => '1.18.0.0',
+            'reference' => 'c77bd0b1f3e3956c7e9661e75cb1f54ed67d95d2',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../mlocati/ip-lib',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);

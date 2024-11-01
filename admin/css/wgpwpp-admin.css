@@ -1,0 +1,213 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+
+#wgpwpp-admin-form
+{
+    background: white;
+    padding: 35px;
+    padding-top: 20px;
+    padding-left: 45px;
+    border: 1px solid #ccc;
+}
+
+#wgpwpp-admin-form h2
+{
+    background: #efefef;
+    margin: 15px 0 10px;
+    margin-left: -10px;
+    padding: 15px 0 15px 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+.form-table th
+{
+    vertical-align: middle;
+    width: 400px;
+}
+
+.form-table th,.form-table td
+{   
+    height:30px;
+       /* border: 1px solid black;*/
+}
+
+
+input[type=checkbox].wgpwpp-btn-checkbox, input[type=checkbox].wgpwpp-flag-checkbox,
+input[type=button].wgpwpp-btn-button
+{
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+span.wgpwpp-button-on, span.wgpwpp-button-off
+{   
+    color: #efefef;
+    font-weight: bold;
+    padding: 10px 15px;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border-radius: 5px;
+    min-width: 75px;
+    text-align: center;
+    cursor: pointer;
+}
+
+span.wgpwpp-button-on {
+    background-color: #25C381;
+    border: 3px solid #6ad9a9;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.4);
+}
+
+span.wgpwpp-button-off {
+    background-color: #DE5856;
+    border: 3px solid #e58685;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.4);
+}
+
+input[type=checkbox][disabled].wgpwpp-btn-checkbox ~ span.wgpwpp-button-on,
+input[type=checkbox][disabled].wgpwpp-btn-checkbox ~ span.wgpwpp-button-off,
+input[type=button][disabled].wgpwpp-btn-button ~ span.wgpwpp-button-off {
+    cursor: default;
+    background-color: #bbb;
+    border: 3px solid #bbb;
+}
+
+input[type=checkbox][disabled].wgpwpp-flag-checkbox ~ span.wgpwpp-lang-flag {
+    cursor: default;
+}
+
+/*input[type=checkbox].wgpwpp-btn-checkbox ~ span.wgpwpp-button-on,*/
+/*input[type=checkbox].wgpwpp-btn-checkbox:checked ~ span.wgpwpp-button-off*/
+/*{*/
+/*    display: none;*/
+/*}*/
+
+/*input[type=checkbox].wgpwpp-btn-checkbox ~ span.wgpwpp-button-off,*/
+/*input[type=checkbox].wgpwpp-btn-checkbox:checked ~ span.wgpwpp-button-on*/
+/*{*/
+/*    display: inline-block;*/
+/*}*/
+
+span.wgpwpp-lang-flag
+{
+    font-size: 150%;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+span.wgpwpp-lang-flag-yes, span.wgpwpp-lang-flag-no
+{
+    position: absolute;
+    font-weight: bold;
+    margin-top: 17px;
+    margin-left: -8px;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+span.wgpwpp-lang-flag-yes
+{
+    color: #25C381;
+}
+span.wgpwpp-lang-flag-no
+{
+    color: #DE5856;
+}
+
+input[type=checkbox].wgpwpp-btn-checkbox ~ span.wgpwpp-lang-flag-yes,
+input[type=checkbox].wgpwpp-btn-checkbox:checked ~ span.wgpwpp-lang-flag-no
+{
+    display: none;
+}
+
+input[type=checkbox].wgpwpp-btn-checkbox ~ span.wgpwpp-lang-flag-no,
+input[type=checkbox].wgpwpp-btn-checkbox:checked ~ span.wgpwpp-lang-flag-yes
+{
+    display: inline-block;
+}
+
+
+div.wgpwpp-notices {
+    display: block;
+    /*width: 100%;*/
+    max-width: 80%;
+    padding: 20px 30px;
+    font-weight: bold;
+}
+
+div.wgpwpp-notice {
+    display: flex;
+    flex-direction: row;
+    margin: 5px 0;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+span.wgpwpp-notice-description
+{
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+div.wgpwpp-notice a {
+    font-weight: bold !important;
+}
+
+div.wgpwpp-notice a:hover {
+    text-decoration: underline !important;
+}
+
+.wgpwpp-info {
+    color: #0a69f5;
+    border: 1px solid #0a69f5;
+    background: #e6f0fe;
+    box-shadow: 0 0 4px 0 #0a69f5;
+}
+
+.wgpwpp-success {
+    color: #0d774b;
+    border: 1px solid #0d774b;
+    background: #cdf9e7;
+    box-shadow: 0 0 4px 0 #0d774b;
+}
+
+.wgpwpp-warn {
+    color: #d16315;
+    border: 1px solid #d16315;
+    background: #fbe5d5;
+    box-shadow: 0 0 4px 0 #d16315
+}
+
+.wgpwpp-error, .wgpwpp-critical {
+    color: #aa1829;
+    border: 1px solid #aa1829;
+    background: #e6f0fe;
+    box-shadow: 0 0 4px 0 #aa1829
+}
+.wgpwpp-error a, .wgpwpp-critical a {
+    color: #4e5e8b !important;
+}
+
+.wgpwpp-faq-link
+{
+    cursor: pointer;
+    color: #0ea5e9;
+    font-weight: bold;
+}
+
+.wgpwpp-faq-link:hover
+{
+    color: #1d4ea1;
+    text-decoration: underline;
+}
+
+

@@ -1,0 +1,141 @@
+{layout 'service_layout.latte'}
+
+{block progressBarTitle}{__("DNS setting", 'wgpwpp')}{/block}
+
+{block main}
+<img class="wds_image" src="{$img_url}/dns.png" alt="www.flaticon.com/free-icons/" srcset="">
+<h1>{__("DNS setting", 'wgpwpp')}</h1>
+{if !$plugin->get_client()->is_registered()}
+    {include errorSvg}
+    <p>{sprintf(__("The plugin has not been yet paired with your customer account at %s", 'wgpwpp'), '<strong>WEDOS&nbsp;Internet,&nbsp;a.s.</strong>')|noescape}</p>
+    <p>{sprintf(__("Return back to the first step and register the plugin.", 'wgpwpp'), '<strong>WEDOS&nbsp;Internet,&nbsp;a.s.</strong>')|noescape}</p>
+    <section id="control">
+        <button id="back" class="btn">{__('Previous step', 'wgpwpp')}</button>
+    </section>
+{elseif !$service->is_created()}
+    {include errorSvg}
+    <p>{__("The WEDOS Global service has not been yet completelly set up. Please return back to the second step and finish service set up process.", 'wgpwpp')}</p>
+    <section id="control">
+        <button id="back" class="btn">{__('Previous step', 'wgpwpp')}</button>
+    </section>
+{elseif $error}
+    {include errorSvg}
+    <p>{__("An error occured during service setup proccess. Please try again.", 'wgpwpp')}</p>
+    <section id="control">
+        <button id="back" class="btn">{__('Previous step', 'wgpwpp')}</button>
+        <button id="repeat" class="btn btn-next">{__('Repeat request', 'wgpwpp')}</button>
+    </section>
+{elseif $service->is_stucked()}
+    <p>{sprintf(__("%s service is now preparing to be set up for your domain %s.", 'wgpwpp'), "<strong>WEDOS Global</strong>", "<strong>{$plugin->get_host()}</strong>")|noescape}</p>
+    <p>{__("This action may take few minutes. Be patient please.", 'wgpwpp')}</p>
+    {include loader}
+    <p>{sprintf(__("This page is regulary refreshed at %s seconds interval.", 'wgpwpp'), 10)}</p>
+
+    <section id="control">
+        <button id="back" class="btn">{__('Previous step', 'wgpwpp')}</button>
+        <button id="check" class="btn btn-next">{__('Check status', 'wgpwpp')}</button>
+    </section>
+{elseif !$service->is_verified()}
+    <p>{sprintf(__("We have to verify you are owner of the domain %s before we can continue with plugin setting.", 'wgpwpp'), "<strong>{$plugin->get_host()}</strong>")|noescape}</p>
+    <p>{sprintf(__("Domain ownership verification is based on DNS TXT record verification. %s", 'wgpwpp'), "<strong>".__('Ask the DNS server provider for your domain to set up the following TXT record:', 'wgpwpp')."</strong>")|noescape}</p>
+
+    <table id="table-dns">
+        <caption>We recommend using the desktop to check DNS records.</caption>
+        <thead>
+        <tr>
+            <th scope="col">{__('type', 'wgpwpp')}</th>
+            <th scope="col">{__('name', 'wgpwpp')}</th>
+            <th scope="col">{__('data', 'wgpwpp')}</th>
+            <th scope="col">{__('TTL', 'wgpwpp')}</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td data-label="type">TXT</td>
+            <td data-label="name" class="wgpwpp-copy-to_clipboard-wrapper bg-center-right" title="{__('Click to copy', 'wgpwpp')}" onclick="wgpwpp_copy_to_clipboard(this);">{$txt_data['name']}</td>
+            <td data-label="data" class="wgpwpp-copy-to_clipboard-wrapper bg-center-right" title="{__('Click to copy', 'wgpwpp')}" onclick="wgpwpp_copy_to_clipboard(this);">{$txt_data['value']}</td>
+            <td data-label="TTL">300</td>
+        </tr>
+        </tbody>
+    </table>
+
+    {include loader}
+
+    {$plugin->admin_section->notices->info(__('Note that the TXT record setting will take effect within one hour.', 'wgpwpp'))->render()}
+
+    <p>{sprintf(__("This page is regulary refreshed at %s minutes interval.", 'wgpwpp'), 10)}</p>
+
+    <section id="control">
+        <button id="back" class="btn">{__('Previous step', 'wgpwpp')}</button>
+        <button id="check" class="btn btn-next">{__('Check status', 'wgpwpp')}</button>
+    </section>
+{elseif $service->is_pending_ns()}
+
+    <p>{sprintf(__("The %s service is now ready to protect your domain. To be protected the domain must use our DNS servers that are under our protection.", 'wgpwpp'), "<strong>WEDOS Global</strong>")|noescape}</p>
+    <p>{__("Our DNS servers are prepared to serve DNS records for your domain. DNS records were copied from currently assigned DNS servers to the domain.", 'wgpwpp')}</p>
+    <p>{sprintf(__("Ask the registrar of domain %s to assign following DNS servers to the domain. Or you can do it yourself in registrar`s admin panel if there is this option available. %s", 'wgpwpp'), "<strong>{$plugin->get_host()}</strong>", "<strong>".__('All 4 DNS servers must be set up.', 'wgpwpp')."</strong>")|noescape}</p>
+    
+    <div id="table-ns" style="width:auto;">
+        <div n:inner-foreach="$ns_data as $ns">
+            <div class="wgpwpp-copy-to_clipboard-wrapper-bg wds-table-ns" title="{__('Click to copy', 'wgpwpp')}" onclick="wgpwpp_copy_to_clipboard(this, this.firstElementChild);">
+                <div>{$ns}</div>
+            </div>
+        </div>
+    </div>
+
+    <p><strong>{__("You can continue as soon as we are able to resolve mentioned nameservers by the domain.", 'wgpwpp')}</strong></p>
+    {include loader}
+    {$plugin->admin_section->notices->info(__('Note that it may take up to several hours for the change of DNS servers to take effect.', 'wgpwpp'))->render()}
+    <p>{sprintf(__("This page is regulary refreshed at %s minutes interval.", 'wgpwpp'), 10)}</p>
+    <section id="control">
+        <button id="back" class="btn">{__('Previous step', 'wgpwpp')}</button>
+        <button id="check" class="btn btn-next">{__('Check status', 'wgpwpp')}</button>
+    </section>
+
+{else}
+
+    <p>{__("Domain nameservers are properly configured.", 'wgpwpp')}</p>
+    <p>{__("Now you can proceed with the next steps of setting up the plugin.", 'wgpwpp')}</p>
+    {include doneSvg}
+    <section id="control">
+        <button id="back" class="btn">{__('Previous step', 'wgpwpp')}</button>
+        <button id="next" class="btn btn-next">{__('Next step', 'wgpwpp')}</button>
+    </section>
+
+{/if}
+
+{/block}
+
+{block js}
+    {include parent}
+
+    <script>
+
+      let wgpwpp_button_repeat = document.querySelector("button#repeat");
+      if (wgpwpp_button_repeat)
+      {
+          wgpwpp_button_repeat.addEventListener("click", (event) => {
+              wgpwpp_button_repeat.classList.remove('btn-next');
+              wgpwpp_button_repeat.disabled = true;
+
+              let url = new URL(window.location.href);
+              url.searchParams.delete('service_error');
+              wgpwpp_service_info(wgpwpp_button_repeat);
+          }, false);
+      }
+
+      let wgpwpp_button_check = document.querySelector("button#check");
+      if (wgpwpp_button_check)
+      {
+        wgpwpp_button_check.addEventListener("click", (event) => {
+          wgpwpp_service_info(wgpwpp_button_check);
+        }, false);
+      }
+
+      {if ($service->is_pending_ns() || $service->is_stucked() || !$service->is_verified()) && !$error}
+          setTimeout(function() {
+            wgpwpp_service_info(wgpwpp_button_check);
+          }, {if $service->is_stucked()}10000{else}600000{/if});
+      {/if}
+    </script>
+{/block}

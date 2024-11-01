@@ -1,0 +1,318 @@
+<?php
+
+use Latte\Runtime as LR;
+
+/** source: /data/web/virtuals/339638/virtual/www/domains/programmer-challenge.fun/wp-content/plugins/wgpwpp//admin/partials/wp-wgp/src/html/1.latte */
+final class Template9d8365f949 extends Latte\Runtime\Template
+{
+	protected const BLOCKS = [
+		['contentId' => 'blockContentId', 'progressBarTitle' => 'blockProgressBarTitle', 'css' => 'blockCss', 'main' => 'blockMain', 'js' => 'blockJs'],
+	];
+
+
+	public function main(): array
+	{
+		extract($this->params);
+		echo "\n";
+		if ($this->getParentName()) {
+			return get_defined_vars();
+		}
+		$this->renderBlock('contentId', get_defined_vars()) /* line 3 */;
+		echo "\n";
+		$this->renderBlock('progressBarTitle', get_defined_vars()) /* line 4 */;
+		echo '
+
+';
+		$this->renderBlock('css', get_defined_vars()) /* line 6 */;
+		echo '
+
+';
+		$this->renderBlock('main', get_defined_vars()) /* line 11 */;
+		echo '
+
+';
+		$this->renderBlock('js', get_defined_vars()) /* line 78 */;
+		return get_defined_vars();
+	}
+
+
+	public function prepare(): void
+	{
+		extract($this->params);
+		$this->parentName = 'service_layout.latte';
+		
+	}
+
+
+	/** {block contentId} on line 3 */
+	public function blockContentId(array $ʟ_args): void
+	{
+		echo 'home';
+	}
+
+
+	/** {block progressBarTitle} on line 4 */
+	public function blockProgressBarTitle(array $ʟ_args): void
+	{
+		echo LR\Filters::escapeHtmlText(sprintf(__("Registration at %s", 'wgpwpp'), "login.wedos.com")) /* line 4 */;
+		
+	}
+
+
+	/** {block css} on line 6 */
+	public function blockCss(array $ʟ_args): void
+	{
+		extract($this->params);
+		extract($ʟ_args);
+		unset($ʟ_args);
+		$this->renderBlockParent('css', get_defined_vars()) /* line 7 */;
+		echo "\n";
+	}
+
+
+	/** {block main} on line 11 */
+	public function blockMain(array $ʟ_args): void
+	{
+		extract($this->params);
+		extract($ʟ_args);
+		unset($ʟ_args);
+		echo '<img class="wds_image logo" src="';
+		echo LR\Filters::escapeHtmlAttr(LR\Filters::safeUrl($img_url)) /* line 12 */;
+		echo 'logo.png"  srcset="">
+
+<h1>';
+		echo __("A <span>big step</span> for your<br> website", 'wgpwpp') /* line 14 */;
+		echo '</h1>
+<h2>';
+		echo LR\Filters::escapeHtmlText(sprintf(__("Registration at %s", 'wgpwpp'), "login.wedos.com")) /* line 15 */;
+		echo '</h2>
+';
+		if ($plugin->get_client()->is_registered()) /* line 16 */ {
+			echo '    <p>';
+			echo sprintf(__("The plugin has already been successfully paired with your customer account at %s", 'wgpwpp'), '<strong>WEDOS&nbsp;Internet,&nbsp;a.s.</strong>') /* line 17 */;
+			echo '</p>
+    <p>';
+			echo LR\Filters::escapeHtmlText(__("Now you can proceed with the next steps of setting up the plugin.", 'wgpwpp')) /* line 18 */;
+			echo '</p>
+    <p>';
+			$this->renderBlock('doneSvg', [], 'html') /* line 19 */;
+			echo '</p>
+    <div id="control">
+        <button class="btn btn-next" id="next">
+            ';
+			echo LR\Filters::escapeHtmlText(__('Continue in plugin settings', 'wgpwpp')) /* line 22 */;
+			echo '
+        </button>
+    </div>
+';
+		} elseif ($undelivered_code) /* line 25 */ {
+			echo '    <p>';
+			echo LR\Filters::escapeHtmlText(__("It seems you haven`t receive verification code in your mailbox. You can show your verification code by clicking the button below.", 'wgpwpp')) /* line 26 */;
+			echo '</p>
+    <div id="verification-code" class="wgpwpp-verification-code wgpwpp-copy-to_clipboard-wrapper" title="';
+			echo LR\Filters::escapeHtmlAttr(__('Click to copy', 'wgpwpp')) /* line 27 */;
+			echo '" onclick="wgpwpp_copy_to_clipboard(this);"></div>
+    <div id="control">
+        <button class="btn btn-next" id="show-code">';
+			echo LR\Filters::escapeHtmlText(__('Show verification code', 'wgpwpp')) /* line 29 */;
+			echo '</button>
+    </div>
+';
+		} else /* line 31 */ {
+			echo '    <p>';
+			echo sprintf(__("The first thing to do is to register at %s to connect the plugin with your customer account at %s", 'wgpwpp'), '<strong>login.wedos.com</strong>', '<strong>WEDOS Internet, a.s.</strong>') /* line 32 */;
+			echo '</p>
+    <p>';
+			echo sprintf(__("After registration and successful login to your customer account, a verification code will be sent to your e-mail address assigned to your WordPress account: %s", 'wgpwpp'), "<strong>{$user_email}</strong>") /* line 33 */;
+			echo '</p>
+    <p>';
+			echo sprintf(__("Use this verification code to complete plugin`s verification process at %s. You will be redirected back to your WordPress admin panel after succesful verification.", 'wgpwpp'), "<strong>login.wedos.com</strong>") /* line 34 */;
+			echo '</p>
+    <div id="control">
+';
+			if ($plugin->get_client()->is_registered()) /* line 36 */ {
+				echo '            <button class="btn btn-next" id="next">';
+				echo LR\Filters::escapeHtmlText(__('Continue in plugin settings', 'wgpwpp')) /* line 37 */;
+				echo '</button>
+';
+			} else /* line 38 */ {
+				echo '            <button class="btn btn-next" id="login">';
+				echo LR\Filters::escapeHtmlText(__('Sign in', 'wgpwpp')) /* line 39 */;
+				echo '</button>
+            <button class="btn btn-next" id="register">';
+				echo LR\Filters::escapeHtmlText(__('Sign up', 'wgpwpp')) /* line 40 */;
+				echo '</button>
+';
+			}
+			echo '
+    </div>
+';
+		}
+		echo '<ul id="reasons">
+   <!-- <li>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+          <path
+              d="M232 120C232 106.7 242.7 96 256 96C269.3 96 280 106.7 280 120V243.2L365.3 300C376.3 307.4 379.3 322.3 371.1 333.3C364.6 344.3 349.7 347.3 338.7 339.1L242.7 275.1C236 271.5 232 264 232 255.1L232 120zM256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0zM48 256C48 370.9 141.1 464 256 464C370.9 464 464 370.9 464 256C464 141.1 370.9 48 256 48C141.1 48 48 141.1 48 256z" />
+        </svg>
+        ';
+		echo LR\Filters::escapeHtmlComment(__("Setup in 5 minutes.", 'wgpwpp')) /* line 51 */;
+		echo '
+    </li>
+    <li>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+          <path
+              d="M168 336C181.3 336 192 346.7 192 360C192 373.3 181.3 384 168 384H120C106.7 384 96 373.3 96 360C96 346.7 106.7 336 120 336H168zM360 336C373.3 336 384 346.7 384 360C384 373.3 373.3 384 360 384H248C234.7 384 224 373.3 224 360C224 346.7 234.7 336 248 336H360zM512 32C547.3 32 576 60.65 576 96V416C576 451.3 547.3 480 512 480H64C28.65 480 0 451.3 0 416V96C0 60.65 28.65 32 64 32H512zM512 80H64C55.16 80 48 87.16 48 96V128H528V96C528 87.16 520.8 80 512 80zM528 224H48V416C48 424.8 55.16 432 64 432H512C520.8 432 528 424.8 528 416V224z" />
+      </svg>
+      ';
+		echo LR\Filters::escapeHtmlComment(__("No credit card required.", 'wgpwpp')) /* line 58 */;
+		echo '
+    </li>
+    <li>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+          <path
+              d="M190.5 68.8L225.3 128H224 152c-22.1 0-40-17.9-40-40s17.9-40 40-40h2.2c14.9 0 28.8 7.9 36.3 20.8zM64 88c0 14.4 3.5 28 9.6 40H32c-17.7 0-32 14.3-32 32v64c0 17.7 14.3 32 32 32H480c17.7 0 32-14.3 32-32V160c0-17.7-14.3-32-32-32H438.4c6.1-12 9.6-25.6 9.6-40c0-48.6-39.4-88-88-88h-2.2c-31.9 0-61.5 16.9-77.7 44.4L256 85.5l-24.1-41C215.7 16.9 186.1 0 154.2 0H152C103.4 0 64 39.4 64 88zm336 0c0 22.1-17.9 40-40 40H288h-1.3l34.8-59.2C329.1 55.9 342.9 48 357.8 48H360c22.1 0 40 17.9 40 40zM32 288V464c0 26.5 21.5 48 48 48H224V288H32zM288 512H432c26.5 0 48-21.5 48-48V288H288V512z" />
+      </svg>
+      ';
+		echo LR\Filters::escapeHtmlComment(__("Free Trial or Free version", 'wgpwpp')) /* line 65 */;
+		echo '
+    </li>
+    <li>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+          <path
+              d="M176 56V96H336V56c0-4.4-3.6-8-8-8H184c-4.4 0-8 3.6-8 8zM128 96V56c0-30.9 25.1-56 56-56H328c30.9 0 56 25.1 56 56V96v32V480H128V128 96zM64 96H96V480H64c-35.3 0-64-28.7-64-64V160c0-35.3 28.7-64 64-64zM448 480H416V96h32c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64z" />
+      </svg>
+      ';
+		echo LR\Filters::escapeHtmlComment(__("No need to move data, change hosting or servers.", 'wgpwpp')) /* line 72 */;
+		echo '
+    </li>
+    -->
+</ul>
+';
+	}
+
+
+	/** {block js} on line 78 */
+	public function blockJs(array $ʟ_args): void
+	{
+		extract($this->params);
+		extract($ʟ_args);
+		unset($ʟ_args);
+		$this->renderBlockParent('js', get_defined_vars()) /* line 79 */;
+		echo "\n";
+		if ($undelivered_code) /* line 81 */ {
+			echo '    <script>
+      let wgpwpp_button_show = document.querySelector("button#show-code");
+      if (wgpwpp_button_show)
+      {
+        wgpwpp_button_show.addEventListener("click", (event) =>
+        {
+          event.preventDefault();
+
+          let data = new FormData();
+          data.append(\'action\', \'wgpwpp_layout_verification_code\');
+          data.append(\'_ajax_nonce\', ';
+			echo LR\Filters::escapeJs($nonce_code) /* line 92 */;
+			echo ');
+
+          fetch(';
+			echo LR\Filters::escapeJs($ajax_url) /* line 94 */;
+			echo ', {
+            method: \'POST\',
+            body: data
+          })
+            .then((response) => response.json())
+            .then((data) =>
+            {
+              if (data.error)
+              {
+                let url = new URL(window.location.href);
+                url.searchParams.delete(\'undelivered_code\');
+                window.location.replace(url);
+              } else
+              {
+                let cont = document.querySelector("div#verification-code");
+                if (cont)
+                {
+                  cont.innerHTML = data.code;
+                  cont.style.display = "block";
+                }
+              }
+            })
+            .catch((e) =>
+            {
+              window.alert(';
+			echo LR\Filters::escapeJs(__('Invalid request!', 'wgpwpp')) /* line 118 */;
+			echo ');
+            })
+
+        }, false);
+      }
+      </script>
+';
+		} else /* line 124 */ {
+			echo '      <script>
+        let register_button = document.querySelector("button#register");
+        if (register_button)
+        {
+            register_button.addEventListener("click", (event) => {
+              event.preventDefault();
+
+              register_button.classList.remove(\'btn-next\');
+              register_button.disabled = true;
+
+              sign(\'up\');
+            }, false);
+        }
+
+        let login_button = document.querySelector("button#login");
+        if (login_button)
+        {
+          login_button.addEventListener("click", (event) => {
+              event.preventDefault();
+
+            login_button.classList.remove(\'btn-next\');
+            login_button.disabled = true;
+
+            sign(\'in\');
+          }, false);
+        }
+
+        function sign(type) {
+          let data = new FormData();
+          data.append(\'action\', \'wgpwpp_auth_redirect\');
+          data.append(\'type\', type);
+          data.append(\'_ajax_nonce\', ';
+			echo LR\Filters::escapeJs($nonce_auth) /* line 156 */;
+			echo ');
+
+          fetch(';
+			echo LR\Filters::escapeJs($ajax_url) /* line 158 */;
+			echo ', {
+            method: \'POST\',
+            body: data
+          })
+            .then((response) => response.json())
+            .then((data) => {
+              if (data.result === \'error\') {
+                window.location.replace(window.location + "&error");
+              }
+              else
+              {
+                window.location.replace(data.data.redirect_uri);
+              }
+            })
+            .catch((e) => {
+              window.alert(';
+			echo LR\Filters::escapeJs(__('Failed to redirect to sign in / sign up form', 'wgpwpp')) /* line 173 */;
+			echo ');
+            })
+
+        }
+
+    </script>
+';
+		}
+		
+	}
+
+}

@@ -1,0 +1,96 @@
+{layout 'service_layout.latte'}
+
+{block progressBarTitle}{__("Congratulations", 'wgpwpp')}{/block}
+
+{block contentId}finish{/block}
+
+{block main}
+<img class="wds_image logo" src="{$img_url}logo.png" alt="www.flaticon.com/free-icons">
+<h1><span>{__("Congratulations", 'wgpwpp')}</span></h1>
+<p>{sprintf(__("Your website on the domain %s is now under the protection of our service %s.", 'wgpwpp'), "<strong>{$service->get_service_name()}</strong>", "<strong>WEDOS Global</strong>")|noescape}</p>
+
+{if $service_data}
+    <table id="table-dns" class="wgpwpp-service-info-table">
+        <thead>
+        <tr>
+            <th scope="col">{__('service name', 'wgpwpp')}</th>
+            <th scope="col">{__('service variant', 'wgpwpp')}</th>
+            <th scope="col">{__('service state', 'wgpwpp')}</th>
+            <th scope="col">{__('service expiration', 'wgpwpp')}</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td data-label="service name">{$service_data['name']}</td>
+                <td data-label="service variant">{$service_data['variant']['name']} - {$service_data['variant']['desc']}{if $service_data['is_trial']} (TRIAL){/if}</td>
+                <td data-label="service state">{$service_state|noescape}</td>
+                <td data-label="service expiration">{$service_expiration}</td>
+            </tr>
+            <tr n:if="(isset($trial_notice) || isset($status_notice) || isset($order_notice))">
+                <td colspan="4">
+                    <div style="width:100%;" n:if="isset($trial_notice)">{$trial_notice->render()}</div>
+                    <div style="width:100%;" n:if="isset($status_notice)">{$status_notice->render()}</div>
+                    <div style="width:100%;" n:if="isset($order_notice)">{$order_notice->render()}</div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+{/if}
+
+{if $proxy_ips}
+    <p>{__('Following IP addresses of proxy servers were assigned for your domain to be protected.', 'wgpwpp')}</p>
+    <table id="table-dns">
+        <thead>
+        <tr>
+            <th scope="col">{__('type', 'wgpwpp')}</th>
+            <th scope="col">{__('data', 'wgpwpp')}</th>
+            <th scope="col">{__('TTL', 'wgpwpp')}</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr n:foreach="$proxy_ips as $record">
+                <td data-label="type">{count(explode('.', $record)) === 4 ? 'A' : 'AAAA'}</td>
+                <td data-label="data">{$record}</td>
+                <td data-label="TTL">300</td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <div style="width:100%;">
+                        {var $notice = $plugin->admin_section->notices->info(__('In the table you can see IP addresses of our proxy servers assigned for your domain. These IP addresess were set up in previous step. We show it here only for your information if you need to check domains DNS setting.', 'wgpwpp'))}
+                        {$notice->render()}
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+{/if}
+
+<h2>{__("We wish our product to help you achieve your goals.", 'wgpwpp')}</h2>
+<section id="control">
+    <button id="admin" class="btn btn-next">{__("Go to the Dashboard", 'wgpwpp')}</button>
+</section>
+<section id="control">
+    <button id="check" class="btn btn-back">{__("Check service status", 'wgpwpp')}</button>
+</section>
+{/block}
+
+{block js}
+    {include parent}
+<script>
+    let wgp_adm_btn = document.querySelector("button#admin");
+    if (wgp_adm_btn)
+    {
+        wgp_adm_btn.addEventListener("click", (event) => {
+            window.open({$wgp_url}, '_blank');
+        }, false);
+    }
+
+    let wgpwpp_button_check = document.querySelector("button#check");
+    if (wgpwpp_button_check)
+    {
+      wgpwpp_button_check.addEventListener("click", (event) => {
+        wgpwpp_service_info(wgpwpp_button_check);
+      }, false);
+    }
+</script>
+{/block}

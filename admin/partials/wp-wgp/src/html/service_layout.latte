@@ -1,0 +1,119 @@
+{layout 'layout.latte'}
+
+<div id="{block contentId}home{/block}">
+
+    {block notices}
+    <div class="wgpwpp-notices" n:inner-foreach="$notices as $notice">
+        {$notice->render()}
+    </div>
+    {/block}
+
+    <main>
+        {block main}{/block}
+    </main>
+
+    {block progress}{/block}
+</div>
+
+{block css}
+    {include parent}
+{/block}
+
+{block js}
+{include parent}
+<script>
+  let wgpwpp_button_back = document.querySelector("button#back");
+  if (wgpwpp_button_back)
+  {
+    wgpwpp_button_back.addEventListener("click", (event) => {
+      event.preventDefault();
+
+      wgpwpp_button_back.disabled = true;
+
+      let data = new FormData();
+      data.append('action', 'wgpwpp_layout_step');
+      data.append('wgpwpp_step', {$step - 1});
+      data.append('_ajax_nonce', {$nonce_step});
+
+      fetch({$ajax_url}, {
+        method: 'POST',
+        body: data
+      })
+        .then((response) => response.json())
+        .then((data) => {
+          if (data.result === 'error') {
+            window.location.replace(window.location + "&error");
+          }
+          else
+          {
+            window.location.replace(data.data.redirect_uri);
+          }
+        })
+        .catch((e) => {
+          window.alert({__('Failed to go to previous step!', 'wgpwpp')});
+        })
+
+    }, false);
+  }
+
+  let wgpwpp_button_next = document.querySelector("button#next");
+  if (wgpwpp_button_next)
+  {
+    wgpwpp_button_next.addEventListener("click", (event) => {
+      event.preventDefault();
+
+      wgpwpp_button_next.classList.remove('btn-next');
+      wgpwpp_button_next.disabled = true;
+
+      let data = new FormData();
+      data.append('action', 'wgpwpp_layout_step');
+      data.append('wgpwpp_step', {$next_step});
+      data.append('_ajax_nonce', {$nonce_step});
+
+      fetch({$ajax_url}, {
+        method: 'POST',
+        body: data
+      })
+        .then((response) => response.json())
+        .then((data) => {
+          if (data.result === 'error') {
+            window.location.replace(window.location + "&error");
+          }
+          else
+          {
+            window.location.replace(data.data.redirect_uri);
+          }
+        })
+        .catch((e) => {
+          window.alert({__('Failed to go to next step!', 'wgpwpp')});
+        })
+
+    }, false);
+  }
+
+  function wgpwpp_service_info(btn) {
+      if (btn) {
+        btn.classList.remove('btn-next');
+        btn.classList.remove('btn-back');
+        btn.disabled = true;
+      }
+
+      let data = new FormData();
+      data.append('action', 'wgpwpp_layout_service_info');
+      data.append('_ajax_nonce', {$nonce_service_info});
+      data.append('wgpwpp_step', {$step});
+
+      fetch({$ajax_url}, {
+        method: 'POST',
+        body: data
+      })
+      .then((response) => response.json())
+      .then((data) => {
+          window.location.replace(data.redirect_uri);
+      })
+      .catch((e) => {
+          window.alert(__('Invalid request!', 'wgpwpp'));
+      });
+  }
+</script>
+{/block}

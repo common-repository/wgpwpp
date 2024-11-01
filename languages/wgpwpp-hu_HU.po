@@ -1,0 +1,1572 @@
+# Translation of Plugins - WEDOS Global (CDN Cache &amp; Security) - Stable (latest release) in Hungarian
+# This file is distributed under the same license as the Plugins - WEDOS Global (CDN Cache &amp; Security) - Stable (latest release) package.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-04-29 21:07+0200\n"
+"PO-Revision-Date: 2024-04-29 21:08+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-KeywordsList: __;_n:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: admin\n"
+"X-Poedit-SearchPath-1: includes\n"
+"X-Poedit-SearchPath-2: .\n"
+"X-Poedit-SearchPath-3: public\n"
+"X-Poedit-SearchPath-4: temp\n"
+
+#: admin/class-wgpwpp-admin.php:268
+msgid "Failed to download debug log"
+msgstr "Nem sikerült letölteni a hibakeresési naplót"
+
+#: admin/class-wgpwpp-admin.php:276
+msgid "Debug log was sent to WEDOS support"
+msgstr "A hibakeresési napló elküldve a WEDOS ügyfélszolgálatra."
+
+#: admin/class-wgpwpp-admin.php:278
+msgid "Failed to send debug log to WEDOS support"
+msgstr ""
+"Nem sikerült elküldeni a hibakeresési naplót a WEDOS ügyfélszolgálatra."
+
+#: admin/class-wgpwpp-admin.php:285
+msgid "Debug log was deleted"
+msgstr "A hibakeresési naplót törölték"
+
+#: admin/class-wgpwpp-admin.php:296
+msgid "The plugin has been reset."
+msgstr "A plugin vissza lett állítva."
+
+#: admin/class-wgpwpp-admin.php:353
+msgid "WEDOS Global - Service status"
+msgstr "WEDOS Global - Szolgáltatás állapota"
+
+#: admin/class-wgpwpp-admin.php:353
+msgid "Service status"
+msgstr "Szolgáltatás állapota"
+
+#: admin/class-wgpwpp-admin.php:354
+msgid "WEDOS Global - Cache setting"
+msgstr "A WEDOS Global gyorsítótár beállításai."
+
+#: admin/class-wgpwpp-admin.php:354
+msgid "Cache setting"
+msgstr "A gyorsítótár beállításai."
+
+#: admin/class-wgpwpp-admin.php:358
+msgid "WEDOS Global - Security reports setting"
+msgstr "A WEDOS Global biztonsági jelentések beállításai."
+
+#: admin/class-wgpwpp-admin.php:358
+msgid "Security reports"
+msgstr "Biztonsági jelentések"
+
+#: admin/class-wgpwpp-admin.php:379
+msgid "Settings"
+msgstr "Beállítások"
+
+#: admin/class-wgpwpp-admin.php:397
+msgid "Access denied!"
+msgstr "Hozzáférés megtagadva!"
+
+#: admin/class-wgpwpp-authorization.php:206
+msgid "Authorization failed. The user denied access for the plugin."
+msgstr ""
+"Sikertelen azonosítás. A felhasználó megtagadta a hozzáférést a pluginhez."
+
+#: admin/class-wgpwpp-authorization.php:283
+msgid "Failed to receive plugin registration token from authorization server!"
+msgstr ""
+"Nem sikerült megkapni a plugin regisztrációs tokent az engedélyező "
+"kiszolgálótól!"
+
+#: admin/class-wgpwpp-authorization.php:287
+msgid "Failed to register OAuth2 client!"
+msgstr "Az OAuth2 ügyfél regisztrálása sikertelen!"
+
+#: admin/class-wgpwpp-authorization.php:529
+msgid "Invalid authorization response!"
+msgstr "Érvénytelen engedélyezési válasz"
+
+#: admin/class-wgpwpp-authorization.php:550
+msgid "Plugin registration failed"
+msgstr "Plugin regisztráció sikertelen"
+
+#: admin/class-wgpwpp-authorization.php:561
+msgid "Plugin successfully registered"
+msgstr "Plugin sikeresen regisztrálva"
+
+#: admin/class-wgpwpp-authorization.php:582
+#: admin/class-wgpwpp-service-layout.php:72
+#: admin/partials/wp-wgp/src/templates_c/src-html-1.latte--9d8365f949.php:244
+#, fuzzy
+#| msgid "Repeat request"
+msgid "Invalid request!"
+msgstr "Ismételje meg a kérést"
+
+#: admin/class-wgpwpp-cache-setting.php:92
+msgid ""
+"WEDOS Global page caching will cache your WordPress posts and pages as "
+"static files. These static files are then served to users, reducing the "
+"processing load on the server. This can improve performance several hundred "
+"times over for fairly static pages."
+msgstr ""
+"A WEDOS Global oldal gyorsítótárazása során a WordPress bejegyzések és "
+"oldalak statikus fájlokként kerülnek a gyorsítótárba. Ezeket a statikus "
+"fájlokat a rendszer megjeleníti a felhasználóknak, ezzel csökkentve a "
+"szerver terhelését. Ez a módszer, különösen a statikus oldalak esetében, "
+"jelentősen javíthatja a teljesítményt."
+
+#: admin/class-wgpwpp-cache-setting.php:97
+#: admin/class-wgpwpp-cache-setting.php:108
+msgid ""
+"It seems there is activated another page caching plugin. We strongly "
+"recommend to deactivate all other page caching plugins before activating our "
+"page caching to avoid incompatibilities."
+msgstr ""
+"Úgy tűnik, egy másik oldalgyorsító\n"
+"plugin  aktív. Az összeférhetetlenségek\n"
+"elkerülése végett javasoljuk, hogy\n"
+"deaktiválja az összes többi oldalgyorsító\n"
+"plugin-t, mielőtt aktiválná a miénket."
+
+#: admin/class-wgpwpp-cache-setting.php:98
+msgid "Detected page caching plugins:"
+msgstr "Észlelt oldaltároló bővítmények:"
+
+#: admin/class-wgpwpp-cache-setting.php:123
+msgid "WEDOS Global page caching is active and working."
+msgstr ""
+"A WEDOS Global oldal gyorsítótárazása\n"
+"hatékony és működőképes."
+
+#: admin/class-wgpwpp-cache-setting.php:140
+msgid "WordPress page caching status"
+msgstr "A WordPress oldal gyorsítótárazásának aktuális állapota."
+
+#: admin/class-wgpwpp-cache-setting.php:167
+msgid ""
+"A global CDN from WEDOS will give you significantly better responsiveness "
+"and faster loading speeds for website content around the world. This will "
+"result in a better user experience, higher search engine rankings, more "
+"orders, leads and returning customers. By maximizing your website’s "
+"performance, you can improve your conversion rate by several percent!"
+msgstr ""
+"A WEDOS globális CDN-je lényegesen jobb reakcióidőt és gyorsabb betöltési "
+"sebességet biztosít a webhely tartalmának világszerte. Ez jobb felhasználói "
+"élményt, jobb keresőmotor rangsort, több megrendelést és visszatérő ügyfelet "
+"eredményez. Weboldala eljesítményének\n"
+"maximalizálásával több százalékkal javíthatja konverziós arányát!"
+
+#: admin/class-wgpwpp-cache-setting.php:171
+#: admin/class-wgpwpp-cache-setting.php:223
+msgid ""
+"To activate CDN Cache, it is necessary to complete the WEDOS Global service "
+"activation process."
+msgstr ""
+"A CDN gyorsítótár aktiválásához be kell fejeznie a WEDOS Global "
+"folyamataktivációs szolgáltatást."
+
+#: admin/class-wgpwpp-cache-setting.php:175
+msgid "Go to complete the WEDOS Global service activation process"
+msgstr "Kérjük, fejezze be a WEDOS Global folyamataktivációs szolgáltatást."
+
+#: admin/class-wgpwpp-cache-setting.php:182
+msgid "WEDOS Global CDN cache is active and working."
+msgstr ""
+"A WEDOS globális CDN-jének gyorsítótára\n"
+"hatékony és működőképes."
+
+#: admin/class-wgpwpp-cache-setting.php:198
+msgid "WEDOS Global CDN Cache status"
+msgstr "WEDOS Global CDN állapot"
+
+#: admin/class-wgpwpp-cache-setting.php:238
+msgid "Something went wrong. Try it later please."
+msgstr "Hiba történt. Kérjük, próbálja újra később."
+
+#: admin/class-wgpwpp-cache-setting.php:260
+msgid ""
+"Something went wrong. Try it again please. Or check cache status on "
+"Wordpress Health page."
+msgstr ""
+"Hiba történt. Kérjük, próbálja meg újra, vagy ellenőrizze a gyorsítótár "
+"állapotát a WordPress Health oldalon."
+
+#: admin/class-wgpwpp-cache-setting.php:285
+#: admin/class-wgpwpp-reports-setting.php:328
+msgid "deactivate"
+msgstr "deaktiválni"
+
+#: admin/class-wgpwpp-cache-setting.php:285
+msgid "enabled"
+msgstr "engedélyezni"
+
+#: admin/class-wgpwpp-cache-setting.php:286
+#: admin/class-wgpwpp-reports-setting.php:329
+msgid "activate"
+msgstr "aktiválni"
+
+#: admin/class-wgpwpp-cache-setting.php:286
+msgid "disabled"
+msgstr "letiltva"
+
+#: admin/class-wgpwpp-reports-setting.php:128
+msgid "Choose preferred reports language (at least one)"
+msgstr "Válassza ki a jelentések kívánt nyelvét (legalább egyet)."
+
+#: admin/class-wgpwpp-reports-setting.php:139
+msgid "Regular security reports"
+msgstr "Rendszeres biztonsági jelentések."
+
+#: admin/class-wgpwpp-reports-setting.php:143
+msgid ""
+"These reports contain information about attacks, content caching, site "
+"availability and potential problems."
+msgstr ""
+"Ezek a jelentések tájékoztatást nyújtanak a támadásokról, a tartalom "
+"gyorsítótárazásáról, az oldal elérhetőségéről és a lehetséges problémákról."
+
+#: admin/class-wgpwpp-reports-setting.php:149
+msgid "I want to receive daily report"
+msgstr "Szeretnék napi jelentést kapni."
+
+#: admin/class-wgpwpp-reports-setting.php:160
+msgid "I want to receive weekly report"
+msgstr "Szeretnék heti jelentést kapni."
+
+#: admin/class-wgpwpp-reports-setting.php:171
+msgid "I want to receive monthly report"
+msgstr "Szeretnék havi jelentést kapni."
+
+#: admin/class-wgpwpp-reports-setting.php:185
+msgid "Critical information regarding your WordPress installation"
+msgstr "Kritikus információk a WordPress telepítésével kapcsolatban."
+
+#: admin/class-wgpwpp-reports-setting.php:189
+msgid ""
+"If we detect a problem with your WordPress installation, domain, web hosting "
+"or IP address, we will send you a warning as soon as possible."
+msgstr ""
+"Amennyiben problémát észlelünk a WordPress telepítésével, domainjével, "
+"webtárhelyével vagy IP-címével kapcsolatban, azonnal figyelmeztetést küldünk "
+"Önnek."
+
+#: admin/class-wgpwpp-reports-setting.php:195
+msgid "I want to receive critical information as soon as possible"
+msgstr "Szeretnék azonnal értesítést kapni kritikus információkról."
+
+#: admin/class-wgpwpp-reports-setting.php:209
+msgid "Points of interest, recommendations and other information"
+msgstr "Érdekes tények, ajánlások és további információk."
+
+#: admin/class-wgpwpp-reports-setting.php:213
+msgid ""
+"WEDOS has been dealing with cyber security and website performance "
+"optimization since 2010. We protect hundreds of thousands of websites, so we "
+"know a lot about current cyber threats and are happy to share important "
+"information with you. As well as how your WordPress can be faster and more "
+"efficient."
+msgstr ""
+"WEDOS 2010 óta a kiberbiztonság és a weboldalak "
+"teljesítményoptimalizálásának szakértője. Weboldalak százezreit védjük, így "
+"sokat tudunk az aktuális kiberfenyegetésekről, és szívesen megosztunk Önnel "
+"fontos információkat. Valamint azt, hogy hogyan tehető a WordPress gyorsabbá "
+"és hatékonyabbá."
+
+#: admin/class-wgpwpp-reports-setting.php:219
+msgid "I want to receive information about current cyber threats"
+msgstr "Szeretnék naprakész lenni az aktuális kiberfenyegetésekről."
+
+#: admin/class-wgpwpp-reports-setting.php:230
+msgid "I want to receive information about WEDOS news and offers"
+msgstr "Szeretnék friss híreket és ajánlatokat kapni a WEDOS-tól."
+
+#: admin/class-wgpwpp-reports-setting.php:241
+msgid ""
+"I want to receive information on how to improve the performance of my "
+"WordPress"
+msgstr ""
+"Szeretnék tájékoztatást kapni arról, hogy miként optimalizálhatom a "
+"WordPress teljesítményét."
+
+#: admin/class-wgpwpp-reports-setting.php:252
+msgid ""
+"I want to receive information about trainings, tutorials, podcasts and other "
+"study materials from WEDOS"
+msgstr ""
+"Szeretnék információkat kapni a WEDOS-tól a képzésekről, oktatóanyagokról, "
+"podcastokról és egyéb tananyagokról."
+
+#: admin/class-wgpwpp-reports-setting.php:328
+msgid "ON"
+msgstr "ON"
+
+#: admin/class-wgpwpp-reports-setting.php:329
+msgid "OFF"
+msgstr "OFF"
+
+#: admin/class-wgpwpp-service-layout.php:98
+#: admin/class-wgpwpp-service-layout.php:205
+msgid "Invalid request. Please refresh current page and try it again."
+msgstr ""
+
+#: admin/class-wgpwpp-service-layout.php:115
+msgid ""
+"We are still unable to resolve required DNS servers by the domain. This may "
+"take up few hours. Be patient please."
+msgstr ""
+
+#: admin/class-wgpwpp-service-layout.php:119
+msgid ""
+"We are still unable to resolve required TXT record. This may take up one "
+"hour based on TTL. Be patient please."
+msgstr ""
+
+#: admin/class-wgpwpp-service-layout.php:123
+msgid ""
+"TLS certificate for encrypted data transfer is still generating. This may "
+"take few minutes. Please be patient."
+msgstr ""
+
+#: admin/class-wgpwpp-service-layout.php:129
+#, fuzzy, php-format
+#| msgid ""
+#| "The last thing we need is to direct your domain to our proxy servers by "
+#| "setting DNS records mentioned in the table below."
+msgid ""
+"Your domain %s is still not directed to our proxy servers by setting the DNS "
+"records in the table below."
+msgstr ""
+"Az utolsó dolog, amire szükségünk van, hogy az alábbi táblázatban említett "
+"DNS rekordok beállításával domainjét közvetlenül a proxy- kiszolgálóinkhoz "
+"irányítsuk."
+
+#: admin/class-wgpwpp-service-layout.php:142
+#, fuzzy
+#| msgid "service state"
+msgid "The service is stopped!"
+msgstr "szolgáltatás állapota"
+
+#: admin/class-wgpwpp-service-layout.php:147
+#, fuzzy
+#| msgid "service expiration"
+msgid "The service is expired!"
+msgstr "szolgáltatás lejárati ideje"
+
+#: admin/class-wgpwpp-service-layout.php:153
+msgid "WEDOS Global service is properly configured to protect you website."
+msgstr ""
+
+#: admin/class-wgpwpp-service-layout.php:175
+#: admin/class-wgpwpp-service-layout.php:215
+msgid ""
+"Failed to setup service. The plugin is unable to parse your WordPress "
+"installation domain name!"
+msgstr ""
+
+#: admin/class-wgpwpp-service-layout.php:179
+#: admin/class-wgpwpp-service-layout.php:219
+#, php-format
+msgid "Your domain name %s is not valid for WEDOS Global service."
+msgstr ""
+
+#: admin/class-wgpwpp-service-layout.php:183
+#, fuzzy
+#| msgid ""
+#| "An error occurred while connecting to WGP API. Please try again later."
+msgid ""
+"The plugin is unable to connect with WEDOS Global API. Please try again later"
+msgstr ""
+"Hiba történt a WGP API-hoz való csatlakozás során. Kérjük, próbálja meg "
+"később újra."
+
+#: admin/class-wgpwpp-service-layout.php:223
+#: admin/class-wgpwpp-service-layout.php:231
+#, php-format
+msgid ""
+"Unfortunately, it is not possible to add the subdomain %s on which your "
+"WordPress website is hosted."
+msgstr ""
+
+#: admin/class-wgpwpp-service-layout.php:224
+msgid "The WEDOS Global service is intended only for second level domains."
+msgstr ""
+
+#: admin/class-wgpwpp-service-layout.php:225
+#, php-format
+msgid "WGPWPP - How to secure my WordPress subdomain %s"
+msgstr ""
+
+#: admin/class-wgpwpp-service-layout.php:227
+#, php-format
+msgid ""
+"Please <a href='%s' target='_blank'>contact</a> our support for information "
+"on how to protect your website."
+msgstr ""
+
+#: admin/class-wgpwpp-service-layout.php:232
+#, fuzzy
+#| msgid "Unsupported TLD"
+msgid "Unsupported TLD."
+msgstr "Nem támogatott TLD"
+
+#: admin/class-wgpwpp-service-layout.php:236
+#, fuzzy
+#| msgid ""
+#| "An error occurred while connecting to WGP API. Please try again later."
+msgid ""
+"The plugin is unable to connect with WEDOS Global API. Please try again "
+"later."
+msgstr ""
+"Hiba történt a WGP API-hoz való csatlakozás során. Kérjük, próbálja meg "
+"később újra."
+
+#: admin/class-wgpwpp-service-layout.php:269
+#: admin/class-wgpwpp-service-layout.php:276
+msgid ""
+"Failed to show verification code. Please start the plugin registration "
+"process again."
+msgstr ""
+
+#: admin/class-wgpwpp-service-layout.php:561
+#, php-format
+msgid ""
+"In the table below you can see all DNS records we have detected for your "
+"domain %s."
+msgstr ""
+
+#: admin/class-wgpwpp-service-layout.php:562
+msgid ""
+"We strongly recommend to check the DNS records if there is no one missing."
+msgstr ""
+
+#: admin/class-wgpwpp-service-layout.php:616
+msgid "The service is in TRIAL mode"
+msgstr ""
+
+#: admin/class-wgpwpp-service-layout.php:618
+#, php-format
+msgid "(%s day left)."
+msgid_plural "(%s days left)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-wgpwpp-service-layout.php:621
+msgid "Upgrade the service to the full version"
+msgstr ""
+
+#: admin/class-wgpwpp-service-layout.php:628
+#, fuzzy
+#| msgid "service state"
+msgid "The service is stopped."
+msgstr "szolgáltatás állapota"
+
+#: admin/class-wgpwpp-service-layout.php:629
+#: admin/partials/wp-wgp/src/templates_c/src-html-5.latte--1b2a066443.php:208
+msgid "Go to the Dashboard"
+msgstr ""
+
+#: admin/class-wgpwpp-service-layout.php:630
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:202
+msgid "or"
+msgstr ""
+
+#: admin/class-wgpwpp-service-layout.php:630
+msgid "Contact support"
+msgstr ""
+
+#: admin/class-wgpwpp-service-layout.php:631
+msgid "for more information"
+msgstr ""
+
+#: admin/class-wgpwpp-service-layout.php:637
+#, fuzzy
+#| msgid "service expiration"
+msgid "The service is expired."
+msgstr "szolgáltatás lejárati ideje"
+
+#: admin/class-wgpwpp-service-layout.php:639
+#, fuzzy
+#| msgid "service name"
+msgid "Order service renewal"
+msgstr "szolgáltatás neve"
+
+#: admin/class-wgpwpp-service-layout.php:641
+#: admin/class-wgpwpp-service-layout.php:657
+msgid "There is pending renewal order waiting for"
+msgstr ""
+
+#: admin/class-wgpwpp-service-layout.php:642
+#: admin/class-wgpwpp-service-layout.php:658
+msgid "payment"
+msgstr "fizetés"
+
+#: admin/class-wgpwpp-verification.php:349
+msgid "Complete the registration verification of the WEDOS Global plugin"
+msgstr "Fejezze be a WEDOS Global plugin regisztrációjának megerősítését."
+
+#: admin/class-wgpwpp-verification.php:351
+msgid "Dear WordPress administrator,"
+msgstr "Kedves WordPress rendszergazda,"
+
+#: admin/class-wgpwpp-verification.php:352
+msgid ""
+"We would like to inform you that a short time ago you requested the pairing "
+"of the WEDOS Global WordPress Plugin with your WEDOS customer account."
+msgstr ""
+"Szeretnénk tájékoztatni Önt, hogy nemrég kérte a WEDOS Global WordPress "
+"Plugin párosítását a WEDOS ügyfélfiókjával."
+
+#: admin/class-wgpwpp-verification.php:353
+msgid ""
+"In order to successfully pair the plugin and your customer account, you must "
+"enter the following verification code:"
+msgstr ""
+"A plugin és az ügyfélfiók sikeres párosításához a következő ellenőrző kódot "
+"kell megadnia:"
+
+#: admin/class-wgpwpp-verification.php:357
+msgid ""
+"After entering the code, you will be able to complete the registration "
+"process and pair the plugin and your customer account."
+msgstr ""
+"A kód beírása után befejezheti a regisztrációs folyamatot, és párosíthatja a "
+"plugint és az ügyfélfiókját."
+
+#: admin/class-wgpwpp-verification.php:358
+msgid "WEDOS Internet, a.s."
+msgstr "WEDOS Internet, a.s."
+
+#: admin/partials/wgpwpp-cache-setting-display.php:23
+#: admin/partials/wgpwpp-reports-setting-display.php:23
+msgid "Settings Saved"
+msgstr "Beállítások mentve"
+
+#: admin/partials/wgpwpp-cache-setting-display.php:35
+msgid "Wordpress Cache"
+msgstr "Wordpress gyorsítótár"
+
+#: admin/partials/wgpwpp-cache-setting-display.php:36
+msgid "WEDOS Global CDN Cache"
+msgstr "WEDOS Global CDN gyorsítótár"
+
+#: admin/partials/wgpwpp-cache-setting-display.php:61
+#: admin/partials/wgpwpp-reports-setting-display.php:37
+#: admin/partials/wgpwpp-reports-setting-display.php:54
+msgid "Save"
+msgstr "Mentés"
+
+#: admin/partials/wgpwpp-reports-setting-display.php:36
+msgid "WEDOS Global - Security Reports Setting"
+msgstr "WEDOS Global - Biztonsági jelentések beállítása."
+
+#: admin/partials/wgpwpp-reports-setting-display.php:42
+#, php-format
+msgid "Choose how often you want to receive security reports to your email %s."
+msgstr ""
+"Válassza ki, milyen gyakran szeretne biztonsági jelentéseket kapni az e-mail "
+"%s címére."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-1.latte--9d8365f949.php:57
+#: admin/partials/wp-wgp/src/templates_c/src-html-1.latte--9d8365f949.php:87
+#, php-format
+msgid "Registration at %s"
+msgstr "Regisztráció %s"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-1.latte--9d8365f949.php:84
+msgid "A <span>big step</span> for your<br> website"
+msgstr "Egy <span>nagy lépés </span> az Ön <br> weboldalának"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-1.latte--9d8365f949.php:92
+#, php-format
+msgid ""
+"The plugin has already been successfully paired with your customer account "
+"at %s"
+msgstr "A plugint már sikeresen párosítottuk az Ön ügyfélfiókjával a %s címen."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-1.latte--9d8365f949.php:95
+#: admin/partials/wp-wgp/src/templates_c/src-html-2.latte--e03f74e866.php:83
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:250
+msgid "Now you can proceed with the next steps of setting up the plugin."
+msgstr "Most már folytathatja a plugin beállításának következő lépéseivel."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-1.latte--9d8365f949.php:103
+#: admin/partials/wp-wgp/src/templates_c/src-html-1.latte--9d8365f949.php:135
+msgid "Continue in plugin settings"
+msgstr "Folytatás a plugin beállításaiban."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-1.latte--9d8365f949.php:110
+msgid ""
+"It seems you haven`t receive verification code in your mailbox. You can show "
+"your verification code by clicking the button below."
+msgstr ""
+"Úgy tűnik, hogy nem kaptad meg az ellenőrző kódot a postafiókodba. Az "
+"ellenőrző kódot az alábbi gombra kattintva tudod megjeleníteni."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-1.latte--9d8365f949.php:113
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:159
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:164
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:211
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:176
+msgid "Click to copy"
+msgstr "Kattintson a másoláshoz"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-1.latte--9d8365f949.php:117
+msgid "Show verification code"
+msgstr "Ellenőrző kód megjelenítése"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-1.latte--9d8365f949.php:123
+#, php-format
+msgid ""
+"The first thing to do is to register at %s to connect the plugin with your "
+"customer account at %s"
+msgstr ""
+"Először is regisztráljon a %s címen, hogy a bővítményt összekapcsolhassa a "
+"%s címen lévő ügyfélfiókjával."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-1.latte--9d8365f949.php:126
+#, php-format
+msgid ""
+"After registration and successful login to your customer account, a "
+"verification code will be sent to your e-mail address assigned to your "
+"WordPress account: %s"
+msgstr ""
+"A regisztráció és a sikeres bejelentkezés után az ügyfélfiókjába egy "
+"ellenőrző kódot küldünk a WordPress-fiókjához rendelt\n"
+"e-mail címére: %s"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-1.latte--9d8365f949.php:129
+#, php-format
+msgid ""
+"Use this verification code to complete plugin`s verification process at %s. "
+"You will be redirected back to your WordPress admin panel after succesful "
+"verification."
+msgstr ""
+"Használja ezt az ellenőrző kódot a plugin hitelesítési folyamatának "
+"befejezéséhez %s-nél. A sikeres ellenőrzés után \n"
+"visszairányítjuk a WordPress adminisztrációs felületére."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-1.latte--9d8365f949.php:140
+msgid "Sign in"
+msgstr "Bejelentkezés"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-1.latte--9d8365f949.php:143
+msgid "Sign up"
+msgstr "Regisztráció"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-1.latte--9d8365f949.php:158
+msgid "Setup in 5 minutes."
+msgstr "Beállítás 5 perc alatt."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-1.latte--9d8365f949.php:167
+msgid "No credit card required."
+msgstr "Nincs szükség bankkártyára."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-1.latte--9d8365f949.php:176
+msgid "Free Trial or Free version"
+msgstr "Ingyenes próbaverzió vagy ingyenes verzió."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-1.latte--9d8365f949.php:185
+msgid "No need to move data, change hosting or servers."
+msgstr "Nem kell adatokat átvinni, tárhelyet vagy kiszolgálót váltani."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-1.latte--9d8365f949.php:306
+msgid "Failed to redirect to sign in / sign up form"
+msgstr "Nem sikerült átirányítani a bejelentkezési / regisztrációs űrlapra."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-2.latte--e03f74e866.php:46
+#: admin/partials/wp-wgp/src/templates_c/src-html-2.latte--e03f74e866.php:61
+msgid "Service setup"
+msgstr "Szolgáltatás beállítása"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-2.latte--e03f74e866.php:67
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:71
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:72
+#, php-format
+msgid "The plugin has not been yet paired with your customer account at %s"
+msgstr "A plugin még nem lett párosítva az Ön ügyfélfiókjával a %s oldalon."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-2.latte--e03f74e866.php:70
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:74
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:75
+msgid "Return back to the first step and register the plugin."
+msgstr "Térjen vissza az első lépéshez, és regisztrálja a plugint."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-2.latte--e03f74e866.php:74
+#: admin/partials/wp-wgp/src/templates_c/src-html-2.latte--e03f74e866.php:89
+#: admin/partials/wp-wgp/src/templates_c/src-html-2.latte--e03f74e866.php:103
+#: admin/partials/wp-wgp/src/templates_c/src-html-2.latte--e03f74e866.php:126
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:78
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:89
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:100
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:122
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:186
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:236
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:256
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:79
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:90
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:104
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:115
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:129
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:266
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:280
+msgid "Previous step"
+msgstr "Előző lépés"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-2.latte--e03f74e866.php:80
+#, php-format
+msgid "%s service was successfully created for your domain %s."
+msgstr "A %s szolgáltatás sikeresen elkészült az Ön %s domainjéhez."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-2.latte--e03f74e866.php:92
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:259
+msgid "Next step"
+msgstr "Következő lépés"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-2.latte--e03f74e866.php:99
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:96
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:276
+msgid "An error occured during service setup proccess. Please try again."
+msgstr ""
+"Hiba történt a szolgáltatás beállítása során. Kérjük, próbálja meg újra."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-2.latte--e03f74e866.php:106
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:103
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:283
+msgid "Repeat request"
+msgstr "Ismételje meg a kérést"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-2.latte--e03f74e866.php:112
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:109
+#, php-format
+msgid "%s service is now preparing to be set up for your domain %s."
+msgstr "A %s szolgáltatás most készül beállítani a %s domaint."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-2.latte--e03f74e866.php:115
+#, php-format
+msgid "This step should take only few seconds. %s"
+msgstr "Ez a lépés csak néhány másodpercet vesz igénybe. %s"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-2.latte--e03f74e866.php:115
+msgid "Be patient please."
+msgstr "Kérjük, legyen türelmes."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-2.latte--e03f74e866.php:121
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:117
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:125
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:261
+#, php-format
+msgid "This page is regulary refreshed at %s seconds interval."
+msgstr "Ez az oldal rendszeresen frissül %s másodpercenként."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-2.latte--e03f74e866.php:129
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:125
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:189
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:239
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:132
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:269
+msgid "Check status"
+msgstr "Állapotellenőrzés"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-2.latte--e03f74e866.php:193
+msgid "Failed to start service setup process."
+msgstr "Nem sikerült elindítani a szolgáltatás beállításának folyamatát."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:50
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:65
+msgid "DNS setting"
+msgstr "DNS beállítás"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:85
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:86
+msgid ""
+"The WEDOS Global service has not been yet completelly set up. Please return "
+"back to the second step and finish service set up process."
+msgstr ""
+"A WEDOS Global szolgáltatás még nem lett teljesen beállítva. Kérjük, térjen "
+"vissza a második lépéshez és fejezze be a szolgáltatás beállítását."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:112
+msgid "This action may take few minutes. Be patient please."
+msgstr "Ez a művelet néhány percig is eltarthat. Kérjük, legyen türelmes."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:131
+#, php-format
+msgid ""
+"We have to verify you are owner of the domain %s before we can continue with "
+"plugin setting."
+msgstr ""
+"Ellenőriznünk kell, hogy Ön a %s domain tulajdonosa, mielőtt folytathatnánk "
+"a plugin beállítását."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:134
+#, php-format
+msgid ""
+"Domain ownership verification is based on DNS TXT record verification. %s"
+msgstr ""
+"A domain tulajdonjogának ellenőrzése a DNS TXT rekord ellenőrzésén alapul. %s"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:134
+msgid ""
+"Ask the DNS server provider for your domain to set up the following TXT "
+"record:"
+msgstr ""
+"Kérje meg a domainjének DNS-kiszolgáló szolgáltatóját, hogy állítsa be a "
+"következő TXT-rekordot:"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:142
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:149
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:221
+#: admin/partials/wp-wgp/src/templates_c/src-html-5.latte--1b2a066443.php:161
+msgid "type"
+msgstr "típus"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:145
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:152
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:224
+msgid "name"
+msgstr "név"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:148
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:155
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:227
+#: admin/partials/wp-wgp/src/templates_c/src-html-5.latte--1b2a066443.php:164
+msgid "data"
+msgstr "adatok"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:151
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:158
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:230
+#: admin/partials/wp-wgp/src/templates_c/src-html-5.latte--1b2a066443.php:167
+msgid "TTL"
+msgstr "TTL"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:177
+msgid "Note that the TXT record setting will take effect within one hour."
+msgstr ""
+"Vegye figyelembe, hogy a TXT rekord beállítása egy óra elteltével lép "
+"hatályba."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:181
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:232
+#, php-format
+msgid "This page is regulary refreshed at %s minutes interval."
+msgstr "Ez az oldal rendszeresen frissül %s percenként."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:196
+#, php-format
+msgid ""
+"The %s service is now ready to protect your domain. To be protected the "
+"domain must use our DNS servers that are under our protection."
+msgstr ""
+"A %s szolgáltatás most már készen áll a domain védelmére. A védelemhez a "
+"domainnek a mi DNS-kiszolgálóinkat kell használnia, amelyek a mi védelmünk "
+"alatt állnak."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:199
+msgid ""
+"Our DNS servers are prepared to serve DNS records for your domain. DNS "
+"records were copied from currently assigned DNS servers to the domain."
+msgstr ""
+"DNS-kiszolgálóink készen állnak a DNS rekordok kiszolgálására az Ön "
+"domainjéhez. A DNS-rekordokat a jelenleg kijelölt DNS-kiszolgálókról "
+"másoltuk a domainhez."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:202
+#, php-format
+msgid ""
+"Ask the registrar of domain %s to assign following DNS servers to the "
+"domain. Or you can do it yourself in registrar`s admin panel if there is "
+"this option available. %s"
+msgstr ""
+"Kérje meg a %s domain regisztrátorát, hogy rendelje hozzá a következő DNS-"
+"kiszolgálókat a domainhez.\n"
+"Vagy megteheti saját maga a regisztrátor adminisztrációs felületén, ha van "
+"ilyen lehetőség. %s"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:202
+msgid "All 4 DNS servers must be set up."
+msgstr "Mind a 4 DNS-kiszolgálót be kell állítani."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:224
+msgid ""
+"You can continue as soon as we are able to resolve mentioned nameservers by "
+"the domain."
+msgstr ""
+"Folytathatja, amint képesek vagyunk feloldani az említett domain "
+"névszervereit."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:229
+msgid ""
+"Note that it may take up to several hours for the change of DNS servers to "
+"take effect."
+msgstr ""
+"Vegye figyelembe, hogy a DNS-kiszolgálók megváltoztatása akár több óráig is "
+"eltarthat, mire a változások érvénybe lépnek."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:247
+msgid "Domain nameservers are properly configured."
+msgstr "A domain névszerverek megfelelően vannak beállítva."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:50
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:65
+msgid "Finishing setting up the service"
+msgstr "A szolgáltatás beállításának befejezése"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:97
+#, php-format
+msgid ""
+"Ownership of the domain %s has not been successfully verified based on TXT "
+"DNS record in domain`s DNS zone."
+msgstr ""
+"A %s domain tulajdonjogát nem sikerült ellenőrizni a domain DNS-zónájában "
+"található TXT DNS rekord alapján."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:100
+msgid "Return back to the third step and verify domain`s ownership."
+msgstr ""
+"Térjen vissza a harmadik lépéshez, és ellenőrizze a domain tulajdonjogát."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:111
+msgid ""
+"Domain`s DNS configuration is not valid. Return to the fourth step and "
+"finish domain`s DNS configuration."
+msgstr ""
+"A domain DNS beállítása nem érvényes. Térjen vissza a negyedik lépéshez, és "
+"fejezze be a tartomány DNS beállítását."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:122
+#, php-format
+msgid "Generating TLS certificate for encrypted data transfer. %s"
+msgstr "TLS tanúsítvány generálása a titkosított adatátvitelhez. %s"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:122
+msgid "This may take few minutes. Please be patient."
+msgstr "Ez eltarthat néhány percig. Kérjük, legyen türelmes."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:138
+msgid ""
+"Everything is now ready to protect your website. There is only one thing "
+"left to do."
+msgstr ""
+"Most már minden készen áll a weboldalának védelmére. Már csak egy dolog van "
+"hátra."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:141
+msgid ""
+"The last thing we need is to direct your domain to our proxy servers by "
+"setting DNS records mentioned in the table below."
+msgstr ""
+"Az utolsó dolog, amire szükségünk van, hogy az alábbi táblázatban említett "
+"DNS rekordok beállításával domainjét közvetlenül a proxy- kiszolgálóinkhoz "
+"irányítsuk."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:194
+msgid ""
+"You can use the link below to grant consent to change DNS records "
+"automatically by us or you can do it manually by editing DNS records for "
+"your domain."
+msgstr ""
+"Az alábbi link segítségével megadhatja a hozzájárulását a DNS rekordok "
+"általunk történő automatikus módosításához, vagy megteheti ezt manuálisan is "
+"a domainjéhez tartozó DNS rekordok szerkesztésével."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:199
+#, php-format
+msgid ""
+"Use this link to give consent with automatic DNS setting of your domain %s"
+msgstr ""
+"Használja ezt a linket, hogy hozzájáruljon a domainje automatikus DNS "
+"beállításához %s"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:210
+#, php-format
+msgid ""
+"Use this link to be redirected to your %s domain`s DNS records "
+"administration page to set up the above DNS records."
+msgstr ""
+"Használja ezt a linket, hogy átirányíthatsuk a %s domain DNS rekordok "
+"felhasználói oldalára a fenti \n"
+"DNS rekordok beállításához."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:290
+msgid "Everething is done. Your website is now under our protection."
+msgstr "Minden készen van. Az Ön weboldala mostantól a mi védelmünk alatt áll."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:294
+msgid "Finish"
+msgstr "Befejez"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-5.latte--1b2a066443.php:54
+#: admin/partials/wp-wgp/src/templates_c/src-html-5.latte--1b2a066443.php:76
+msgid "Congratulations"
+msgstr "Gratulálunk"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-5.latte--1b2a066443.php:79
+#, php-format
+msgid ""
+"Your website on the domain %s is now under the protection of our service %s."
+msgstr ""
+"A %s domainnév alatt található webhelye mostantól a %s szolgáltatásunk "
+"védelme alatt áll."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-5.latte--1b2a066443.php:88
+msgid "service name"
+msgstr "szolgáltatás neve"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-5.latte--1b2a066443.php:91
+msgid "service variant"
+msgstr "szolgáltatás változata"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-5.latte--1b2a066443.php:94
+msgid "service state"
+msgstr "szolgáltatás állapota"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-5.latte--1b2a066443.php:97
+msgid "service expiration"
+msgstr "szolgáltatás lejárati ideje"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-5.latte--1b2a066443.php:155
+msgid ""
+"Following IP addresses of proxy servers were assigned for your domain to be "
+"protected."
+msgstr ""
+"A következő proxy-kiszolgálók IP-címei lettek hozzárendelve a domain "
+"védelméhez."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-5.latte--1b2a066443.php:191
+msgid ""
+"In the table you can see IP addresses of our proxy servers assigned for your "
+"domain. These IP addresess were set up in previous step. We show it here "
+"only for your information if you need to check domains DNS setting."
+msgstr ""
+"A táblázatban láthatja a domainjéhez rendelt proxy-kiszolgálóink IP-címeit. "
+"Ezeket az IP címeket az előző lépésben állítottuk be. Itt csak "
+"tájékoztatásképp mutatjuk meg, ha ellenőrizni szeretné a domainek DNS-"
+"beállításait."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-5.latte--1b2a066443.php:204
+msgid "We wish our product to help you achieve your goals."
+msgstr "Azt kívánjuk, hogy termékünk segítséget nyújtson a céljai elérésében."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-5.latte--1b2a066443.php:213
+msgid "Check service status"
+msgstr "A szolgáltatás állapotának ellenőrzése"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:65
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:69
+msgid "What sort of company is WEDOS?"
+msgstr "Miféle cég a WEDOS?"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:72
+msgid ""
+"WEDOS was founded in the year 2010, and has since grown to become the "
+"biggest webhosting provider in the Czech Republic. The company invests in "
+"technology, innovation and research to offer quality services for affordable "
+"prices to the widest possible customer base. WEDOS maintains two privately-"
+"owned datacenters and is about to build a third one."
+msgstr ""
+"A WEDOS 2010-ben alakult és azóta Csehország legnagyobb webtárhely-"
+"szolgáltatójává vált. Cégünk befektett a\n"
+"technológiákba, innovációkba és kutatásba, hogy minőségi szolgáltatásokat "
+"tudjunk nyújtani megfizethető áron a lehető legszélesebb ügyfélkör számára. "
+"Jelenleg két saját adatközpontunk van és hamarosan megkezdődik a harmadik "
+"adatközpontunk építése."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:75
+msgid ""
+"The first datacenter, WEDOS DC 1 \"Bunkr\", was founded in 2010 and "
+"modernized between 2018 and 2020. The second datacenter, WEDOS DC 2 "
+"\"Podksalí\", is a unique project designed to cool servers using oil and "
+"water. The third datacenter, WEDOS DC 3 \"Kravín\" is under development and "
+"meant to house more servers and storage. WEDOS also expands internationally "
+"with its WEDOS Global project."
+msgstr ""
+"Az első adatközpont, a WEDOS DC 1 „Bunkr” 2010-ben jött létre, 2018 és 2020 "
+"között modernizáltuk. A második adatközpont, a WEDOS DC 2 „Podskalí” egy "
+"egyedülálló projekt, amelyet a szerverek olajjal és vízzel történő hűtésére "
+"terveztek. A harmadik adatközpont, a WEDOS DC 3 „Kravín” fejlesztés alatt "
+"áll, további szerverek és\n"
+"tárhelyek elhelyezésére van tervezve. A WEDOS nemzetközi szinten is "
+"terjeszkedik a WEDOS Global projekttel."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:83
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:87
+msgid "How do I set the service up?"
+msgstr "Hogyan tudom beállítani a szolgáltatást?"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:92
+msgid "Registration: Create an account at login.wedos.com."
+msgstr "Regisztráció: Hozzon létre egy felhasználói fiókot login.wedos.com."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:95
+msgid "SMS verification: Verify your account via SMS code."
+msgstr "SMS-ellenőrzés: Ellenőrizze fiókját SMS-kóddal."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:98
+msgid ""
+"Email verification: Verify the website via code sent to the WordPress "
+"administrator's e-mail."
+msgstr ""
+"E-mail ellenőrzés: A weboldal ellenőrzése a WordPress rendszergazda e-mail "
+"címére küldött kóddal."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:101
+msgid "Automatic protection: The system sets up protection automatically."
+msgstr "Automatikus védelem: A rendszer automatikusan beállítja a védelmet."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:104
+msgid "DNS scan: Scan and confirm your DNS records."
+msgstr "DNS-ellenőrzés: Ellenőrizze és erősítse meg a DNS-bejegyzéseket."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:107
+msgid "DNS settings: Set up and check DNS servers."
+msgstr "DNS-beállítások: Állítsa be és ellenőrizze a DNS-szervereket."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:110
+msgid "Finish: Save the plugin settings."
+msgstr "Befejezés: Mentse el a bővítmény beállításait."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:120
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:124
+msgid "How does the plugin work?"
+msgstr "Hogyan működik ez a bővítmény?"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:127
+msgid ""
+"This plugin optimizes web performance and security. Its main purpose is to "
+"load web pages faster, decrease server loads and protect against various "
+"online threats, such as DDoS attacks or unauthorized access. Install the "
+"plugin in your WordPress administration and change DNS servers according to "
+"instructions, so it can effectively monitor and filter website traffic."
+msgstr ""
+"Ez a bővítmény javítja a webes teljesítményt és növeli a biztonságot. Fő "
+"feladata, hogy gyorsítsa a weboldalak betöltési idejét, csökkentse a "
+"szerverek terhelését és védelmet nyújtson a különböző online veszélyekkel, "
+"mint például a DDoS-támadások vagy a jogosulatlan hozzáférés ellen. A "
+"WordPress adminisztrációs felületén telepítheti a bővítményt, majd kövesse "
+"az utasításokat a DNS-szerverek módosításához, így hatékonyan\n"
+"képes lesz folyamatosan megfigyelni és szűrni a weboldal forgalmát."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:130
+msgid ""
+"The plugin works on the anycast proxy principle, which directs traffic "
+"through its optimized and secure servers. These servers process and optimize "
+"content before it reaches users. The plugin also utilizes intelligent "
+"caching, compression and minification of files to further speed up rendering "
+"times and reduce server load. It also features a firewall, bot detection, "
+"DDoS protection and other tools to maintain a high level of security for "
+"your website and users."
+msgstr ""
+"A bővítmény az anycast proxy elvén működik, amely a forgalmat az "
+"optimalizált és biztonságos szerverein keresztül irányítja. Ezek a szerverek "
+"feldolgozzák és optimalizálják a tartalmat, mielőtt az eljutna a "
+"felhasználókhoz. A bővítmény intelligens gyorsítótárazást, tömörítést és a "
+"fájlok minifikációját is alkalmazza a\n"
+"megjelenítési idő további felgyorsítása és a szerverterhelés csökkentése "
+"érdekében. Emellett\n"
+"tűzfallal, bot-érzékeléssel, DDoS-védelemmel és egyéb eszközökkel is "
+"rendelkezik, hogy a weboldal és a felhasználók számára magas szintű "
+"biztonságot nyújtson."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:138
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:142
+msgid "What exactly am I paying for?"
+msgstr "Pontosan miért fizetek?"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:145
+msgid ""
+"For a small fee, you can use our services, which handle a lot of the hardest "
+"chores associated with running a website. This includes filtering unwanted "
+"traffic, detecting and blocking attacks, distributing content using a global "
+"miniCDN (Content Delivery Network), and caching content to optimize your "
+"web's overall performance worldwide."
+msgstr ""
+"Egy kisebb díj ellenében használhatja szolgáltatásainkat, amelyek a weboldal "
+"üzemeltetésével járó\n"
+"legbonyolultabb feladatok nagy részét kezelik. Ez magában foglalja a nem "
+"kívánt forgalom szűrését, a\n"
+"támadások észlelését és blokkolását, a tartalom globális miniCDN (Content "
+"Delivery Network) segítségével\n"
+"történő terjesztését, ami lehetővé teszi a weboldal hatékony és gyors "
+"működését világszerte."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:148
+msgid ""
+"Our services cost a fraction of the price offered by our competition. You "
+"gain access to cutting-edge technology and know-how without the need to "
+"invest large sums of money. We offer an effective and affordable solution to "
+"your website performance and security needs."
+msgstr ""
+"Szolgáltatásaink a piacon elérhető alternatívákhoz képest jelentősen "
+"költséghatékonyabbak. A legújabb\n"
+"technológiai fejlesztésekhez és szakértői tudásbázishoz való hozzáférés, "
+"anélkül, hogy nagy összegeket kellene befektetnie. Hatékony és megfizethető "
+"megoldást kínálunk weboldala teljesítményének\n"
+"és biztonsági követelményeinek kielégítésére."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:156
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:160
+msgid "Do I need to register?"
+msgstr "Szükségem van regisztrációra?"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:163
+msgid ""
+"Yes, registration is necessary. It grants you access to our administration "
+"panel, where you can manage WEDOS Global and other services offered by our "
+"global infrastructure. After registering, we analyze your website to find "
+"out how to optimize its protection plan. Based ot this analysis, we deploy "
+"security measures, such as a web firewall, bot blocking, or access control. "
+"Your personal information is stored in accordance with GDPR, which regulates "
+"privacy, integrity and accessibility of personal information, as well as "
+"accessing, updating and deleting this data."
+msgstr ""
+"Igen, a regisztráció szükséges. Ez hozzáférést biztosít az adminisztrációs "
+"panelhez, ahol kezelheti a WEDOS Global és a globális infrastruktúránk által "
+"kínált egyéb szolgáltatásokat. A regisztráció után elemezzük weboldalát, "
+"hogy kiderítsük, hogyan optimalizálhatjuk annak védelmi tervét. Ezen elemzés "
+"alapján biztonsági intézkedéseket, például webes tűzfalat, botblokkolást "
+"vagy hozzáférés-szabályozást telepítünk. Az Ön személyes adatait a GDPR-nak "
+"megfelelően tároljuk, amely szabályozza a személyes adatok védelmét, "
+"integritását, valamint a személyes adatokhoz való hozzáférést, azok "
+"frissítését és törlését."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:171
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:176
+msgid "Do you have an official website?"
+msgstr "Kipróbálhatom a szolgáltatást először?"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:179
+msgid "Yes, the project website is wedos.global"
+msgstr "Igen, a projekt weboldala a wedos.global."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:187
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:191
+msgid "Can I try the service first?"
+msgstr "Kipróbálhatom a szolgáltatást először?"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:194
+msgid ""
+"Yes, you can test the service through a free trial to learn about its "
+"functions and decide whether it's the right solution for you."
+msgstr ""
+"Igen, a szolgáltatást egy ingyenes próbaverzió segítségével kipróbálhatja, "
+"hogy megismerje a funkcióit, és eldönthesse, hogy ez a megfelelő megoldás-e "
+"az Ön számára."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:197
+msgid ""
+"We also offer a version for private use, which is also free. It is designed "
+"for individuals who want to protect their websites or projects without "
+"committing to the full-scale solution."
+msgstr ""
+"Magáncélú használatra is kínálunk egy változatot, amely szintén ingyenes. "
+"Olyan magánszemélyek számára készült, akik anélkül szeretnék megvédeni "
+"webhelyeiket vagy projektjeiket, hogy elköteleznék magukat a teljes körű "
+"szolgáltatás mellett."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:205
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:209
+msgid "Do you collect personal information?"
+msgstr "Gyűjt személyes adatokat?"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:212
+msgid ""
+"Yes, we do collect some personal data, all in accordance with GDPR (General "
+"Data Protection Regulation). Our company keeps user privacy front-and-"
+"center, and handles personal information with the highest degree of "
+"responsibility. All your data is processed in a transparent and secure "
+"manner in accordance with law. We strive to collect the least amount of data "
+"possible to provide and improve our services."
+msgstr ""
+"Igen, gyűjtünk néhány személyes adatot, mindezt a GDPR (általános "
+"adatvédelmi rendelet) előírásai szerint. Cégünk a felhasználók adatvédelmét "
+"tartja szem előtt, és a személyes adatokat a legnagyobb felelősséggel "
+"kezeli. Minden adatát átlátható és biztonságos módon, a törvényeknek "
+"megfelelően dolgozzuk fel. Arra törekszünk, hogy a lehető legkevesebb adatot "
+"gyűjtsük szolgáltatásaink nyújtásához és fejlesztéséhez."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:220
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:224
+msgid "What happens if I deactivate or uninstall the plugin?"
+msgstr "Mi történik, ha deaktiválom vagy eltávolítom a plugin-t?"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:227
+msgid ""
+"Even after you unistall or deactivate the plugin, your WEDOS Global service "
+"will remain active. This means that even if you can no longer see the plugin "
+"in your WordPress administration, your domain is still protected. "
+"Deactivating or uninstalling the plugin therefore has no effect on an "
+"already protected domain. If you want to use the plugin features, you will "
+"need to reactivate or reinstall it. To completely cancel the WEDOS Global "
+"service and stop protecting your domain, you have to deactivate this "
+"protection via the administration panel at client.wedos.global."
+msgstr ""
+"A WEDOS Global szolgáltatás még a plugin eltávolítása vagy deaktiválása után "
+"is aktív marad. Ez azt jelenti, hogy ha már nem is látható a WordPress "
+"adminisztációs felületén a plugin a domain továbbra is védett marad. A  "
+"plugin deaktiválása vagy eltávolítása ezért nincs hatással a már védett "
+"domainre.Ha szeretné használni a plugin funkcióit, újra aktiválnia vagy "
+"telepítenie kell azt. A WEDOS Global szolgáltatás teljes megszüntetéséhez és "
+"a domain védelmének megszüntetéséhez a védelmet az adminisztrációs panelen "
+"keresztül kell kikapcsolnia a client.wedos.global címen."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:248
+#, php-format
+msgid "Step %d"
+msgstr "Lépés %d"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:384
+msgid "Failed to copy to clipboard."
+msgstr "Nem sikerült a tartalmat a vágólapra másolni."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-service_layout.latte--19a0950ab1.php:160
+msgid "Failed to go to previous step!"
+msgstr "Nem sikerült visszatérni az előző lépésre!"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-service_layout.latte--19a0950ab1.php:203
+msgid "Failed to go to next step!"
+msgstr "Nem sikerült továbblépni!"
+
+#: includes/class-wgpwpp-activator.php:65
+#, php-format
+msgid ""
+"PHP version needs to be at least %s to activate this plugin. Your PHP "
+"version is %s."
+msgstr ""
+"A PHP verziójának legalább %s kell lennie a plugin aktiválásához. Az Ön PHP "
+"verziója %s."
+
+#: includes/class-wgpwpp-activator.php:76
+#, php-format
+msgid ""
+"WordPress version needs to be at least %s to activate this plugin. Your "
+"WordPress version is %s."
+msgstr ""
+"A WordPress verziójának legalább %s kell lennie a plugin aktiválásához. Az "
+"Ön WordPress verziója %s."
+
+#: includes/class-wgpwpp-activator.php:87
+msgid ""
+"WordPress REST API is unavailable. It must be available for the plugin to "
+"work properly."
+msgstr ""
+"A WordPress REST API nem érhető el. Ahhoz, hogy a plugin megfelelően "
+"működjön, elérhetőnek kell lennie."
+
+#: includes/class-wgpwpp-activator.php:112
+msgid ""
+"This plugin can be activated only from Network Administration panel in "
+"WordPress Multisite installation with Subdirectories network type."
+msgstr ""
+"Ez a Plugin csak a Hálózati adminisztrációs felületen aktiválható a "
+"WordPress Multisite telepítés esetén, az Alkönyvtárak hálózati típusa "
+"használatával."
+
+#: includes/class-wgpwpp-activator.php:216
+msgid "The REST API is available"
+msgstr "A REST API elérhető"
+
+#: includes/class-wgpwpp-activator.php:230
+msgid "The REST API encountered an error"
+msgstr "A REST API hibát észlelt"
+
+#: includes/class-wgpwpp-activator.php:234
+msgid "When testing the REST API, an error was encountered:"
+msgstr "A REST API tesztelése során hiba lépett fel:"
+
+#: includes/class-wgpwpp-activator.php:237
+#, php-format
+msgid "REST API Endpoint: %s"
+msgstr "REST API végpont: %s"
+
+#: includes/class-wgpwpp-activator.php:242
+#, php-format
+msgid "REST API Response: (%1$s) %2$s"
+msgstr "REST API válasz: (%1$s) %2$s"
+
+#: includes/class-wgpwpp-client.php:166
+msgid "Client is not properly registered!"
+msgstr "Az ügyfél nincs megfelelően regisztrálva!"
+
+#: includes/class-wgpwpp-client.php:179
+msgid "Failed to gain access token from authorization server"
+msgstr ""
+"Nem sikerült hozzáférési tokent szerezni az engedélyező kiszolgáltatótól."
+
+#: includes/class-wgpwpp-client.php:288
+#, php-format
+msgid "WEDOS Global WordPress Plugin for domain %s"
+msgstr "WEDOS Global WordPress plugin a domain %s számára"
+
+#: includes/class-wgpwpp-client.php:290
+msgid ""
+"OAuth2 client used by WGP WordPress Plugin for activation of WEDOS Global "
+"service and its maintanance."
+msgstr ""
+"A WGP WordPress Plugin által használt OAuth2 kliens a WEDOS Global "
+"szolgáltatás aktiválásához és karbantartásához."
+
+#: includes/class-wgpwpp-service.php:675 includes/class-wgpwpp-service.php:779
+msgid "An error occurred while connecting to WGP API"
+msgstr "Hiba történt a WGP API-hoz való csatlakozás során."
+
+#: includes/class-wgpwpp-service.php:680
+msgid "Invalid domain name"
+msgstr "Érvénytelen domain név"
+
+#: includes/class-wgpwpp-service.php:684 includes/class-wgpwpp-service.php:788
+msgid "Domain not found"
+msgstr "Domain nem található"
+
+#: includes/class-wgpwpp-service.php:687 includes/class-wgpwpp-service.php:914
+msgid ""
+"Subdomains are not supported. Only second level domain names are supported."
+msgstr ""
+"A aldomainek nem támogatottak. Csak a másodszintű domain nevek támogatott."
+
+#: includes/class-wgpwpp-service.php:689 includes/class-wgpwpp-service.php:915
+msgid "Unsupported TLD"
+msgstr "Nem támogatott TLD"
+
+#: includes/class-wgpwpp-service.php:692 includes/class-wgpwpp-service.php:794
+#: includes/class-wgpwpp-service.php:916
+msgid "Unknown internal error"
+msgstr "Ismeretlen belső hiba."
+
+#: includes/class-wgpwpp-service.php:784
+msgid "Validation failed"
+msgstr "Az érvényesítés sikertelen volt."
+
+#: includes/class-wgpwpp-service.php:906
+msgid "An error occurred while connecting to WGP API. Please try again later."
+msgstr ""
+"Hiba történt a WGP API-hoz való csatlakozás során. Kérjük, próbálja meg "
+"később újra."
+
+#: includes/class-wgpwpp-service.php:912
+msgid "Invalid domain name format"
+msgstr "Érvénytelen domainnév formátum."
+
+#: includes/class-wgpwpp-service.php:913
+msgid "Domain already exists for this account"
+msgstr "A domain már létezik ehhez a fiókhoz."
+
+#: includes/class-wgpwpp-wp-cache.php:706
+msgid "WEDOS Global page caching is enabled"
+msgstr ""
+"A WEDOS Global oldal gyorsítótárazása \n"
+"ngedélyezve van."
+
+#: includes/class-wgpwpp-wp-cache.php:706
+msgid "Performance"
+msgstr "Teljesítmény"
+
+#: includes/class-wgpwpp-wp-cache.php:706
+msgid ""
+"Page caching loads your site faster for visitors, and allows your site to "
+"handle more traffic without overloading."
+msgstr ""
+"Az oldal gyorsítótárazása gyorsabban tölti be a webhelyet a látogatók "
+"számára, és lehetővé teszi, hogy a webhely nagyobb forgalmat kezeljen "
+"túlterhelés nélkül."
+
+#: includes/class-wgpwpp-wp-cache.php:710
+msgid "Manage your plugins"
+msgstr "Bővítmények kezelése"
+
+#: includes/class-wgpwpp-wp-cache.php:715
+#: includes/class-wgpwpp-wp-cache.php:745
+#: includes/class-wgpwpp-wp-cache.php:756
+msgid "WEDOS Global page caching is not installed correctly"
+msgstr "A WEDOS Global oldal gyorsítótárazása nem lett megfelelően telepítve."
+
+#: includes/class-wgpwpp-wp-cache.php:716
+msgid ""
+"Looks like the WEDOS Global cache is not installed correctly. Please try to "
+"deactivate and activate it again on the plugin cache setting page."
+msgstr ""
+"Úgy tűnik, hogy a WEDOS Global gyorsítótár nem megfelelően lett telepítve. "
+"Kérjük, próbálja meg deaktiválni és újra aktiválni a plugin gyorsítótár "
+"beállítási oldalán."
+
+#: includes/class-wgpwpp-wp-cache.php:725
+msgid "WEDOS Global page caching is being installed"
+msgstr "A WEDOS Global oldaltároló telepítése jelenleg zajlik."
+
+#: includes/class-wgpwpp-wp-cache.php:726
+msgid ""
+"WEDOS Global cache is being installed. This should only take a few seconds. "
+"If this message does not disappear, please try to deactivate and activate "
+"the the cache on the plugin cache setting page."
+msgstr ""
+"A WEDOS Global gyorsítótár telepítése folyamatban van. Ez csak néhány "
+"másodpercig tart. Ha ez az üzenet nem tűnik el, kérjük, próbálja meg ki- és "
+"bekapcsolni a gyorsítótárat a plugin gyorsítótár beállítási oldalán."
+
+#: includes/class-wgpwpp-wp-cache.php:735
+msgid "Page caching is disabled in wp-config.php"
+msgstr ""
+"Az oldal gyorsítótárazása a wp-config.php\n"
+"fájlban van letiltva."
+
+#: includes/class-wgpwpp-wp-cache.php:736
+msgid ""
+"WEDOS Global cache is installed, but caching is disabled because the "
+"WP_CACHE directive is not defined in wp-config.php. Please try to deactivate "
+"and activate the cache on plugin cache setting page, or define WP_CACHE "
+"manually in wp-config.php"
+msgstr ""
+"A WEDOS Global cache telepítve van, de a gyorsítótárazást letiltották, mert "
+"a WP_CACHE direktíva nincs definiálva a wp-config.php fájlban. Kérjük, "
+"próbálja meg a cache-t deaktiválni és aktiválni a plugin cache beállítási "
+"oldalán, vagy manuálisan definiálja a WP_CACHE-t a wp-config.php fájlban."
+
+#: includes/class-wgpwpp-wp-cache.php:746
+msgid ""
+"Looks like the WEDOS Global cache is not installed correctly, advanced-cache."
+"php is missing. Please try to deactivate and activate the cache on the WEDOS "
+"Global plugin cache setting page."
+msgstr ""
+"Úgy tűnik, hogy a WEDOS Global gyorsítótár nincs megfelelően telepítve, az "
+"advanced-cache.php hiányzik. Kérjük, próbálja meg deaktiválni és aktiválni a "
+"gyorsítótárat a WEDOS Global plugin cache beállítási oldalán."
+
+#: includes/class-wgpwpp-wp-cache.php:757
+msgid ""
+"Looks like the WEDOS Global cache is not installed correctly, invalid "
+"advanced-cache.php contents. Please try to deactivate and activate the cache "
+"on the WEDOS Global plugin cache setting page."
+msgstr ""
+"Úgy tűnik, hogy a WEDOS globális gyorsítótár nincs megfelelően telepítve,\n"
+"érvénytelen advanced-cache.php tartalom. Kérjük, próbálja meg kikapcsolni "
+"és\n"
+"aktiválni a gyorsítótárat a WEDOS Global plugin cache beállítási oldalán."
+
+#: includes/class-wgpwpp-wp-cache.php:766
+msgid "Page caching directory is missing or not writable"
+msgstr "Az oldal gyorsítótárazási könyvtár hiányzik vagy nem írható."
+
+#: includes/class-wgpwpp-wp-cache.php:767
+msgid ""
+"WEDOS Global cache is installed, but the cache directory is missing or not "
+"writable. Please check the wp-content/cache directory permissions in your "
+"hosting environment, then toggle the cache status on WEDOS Global plugin "
+"cache setting page."
+msgstr ""
+"A WEDOS Global cache telepítve van, de a\n"
+"cache könyvtár hiányzik, vagy nem írható.\n"
+"Kérjük, ellenőrizze a wp-content/cache\n"
+"könyvtár engedélyeit a tárhely\n"
+"környezetében, majd aktiválja a gyorsítótár\n"
+"állapotát a WEDOS Global plugin cache\n"
+"beállítási oldalán.\""
+
+#~ msgid "WEDOS Global (CDN Cache & Security)"
+#~ msgstr "WEDOS Global (CDN gyorsítótár és biztonság)"

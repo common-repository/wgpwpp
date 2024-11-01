@@ -1,0 +1,100 @@
+{layout 'service_layout.latte'}
+
+{block progressBarTitle}{__("Service setup", 'wgpwpp')}{/block}
+
+{block main}
+<img class="wds_image" src="{$img_url}/hourglass.png" alt="" srcset="">
+<h1>{__("Service setup", 'wgpwpp')}</h1>
+{if !$plugin->get_client()->is_registered()}
+    {include errorSvg}
+    <p>{sprintf(__("The plugin has not been yet paired with your customer account at %s", 'wgpwpp'), '<strong>WEDOS&nbsp;Internet,&nbsp;a.s.</strong>')|noescape}</p>
+    <p>{sprintf(__("Return back to the first step and register the plugin.", 'wgpwpp'), '<strong>WEDOS&nbsp;Internet,&nbsp;a.s.</strong>')|noescape}</p>
+    <section id="control">
+        <button id="back" class="btn">{__('Previous step', 'wgpwpp')}</button>
+    </section>
+{elseif $service->is_created()}
+    <p>{sprintf(__("%s service was successfully created for your domain %s.", 'wgpwpp'), "<strong>WEDOS Global</strong>", "<strong>{$plugin->get_host()}</strong>")|noescape}</p>
+    <p>{__("Now you can proceed with the next steps of setting up the plugin.", 'wgpwpp')}</p>
+    {include doneSvg}
+    <section id="control">
+        <button id="back" class="btn">{__('Previous step', 'wgpwpp')}</button>
+        <button id="next" class="btn btn-next">{__('Next step', 'wgpwpp')}</button>
+    </section>
+{elseif $error}
+    {include errorSvg}
+    <p>{__("An error occured during service setup proccess. Please try again.", 'wgpwpp')}</p>
+    <section id="control">
+        <button id="back" class="btn">{__('Previous step', 'wgpwpp')}</button>
+        <button id="repeat" class="btn btn-next">{__('Repeat request', 'wgpwpp')}</button>
+    </section>
+{else}
+    <p>{sprintf(__("%s service is now preparing to be set up for your domain %s.", 'wgpwpp'), "<strong>WEDOS Global</strong>", "<strong>{$plugin->get_host()}</strong>")|noescape}</p>
+    <p>{sprintf(__("This step should take only few seconds. %s", 'wgpwpp'), " <strong>".__("Be patient please.", "wgpwpp")."</strong>")|noescape}</p>
+    {include loader}
+
+    <p>{sprintf(__("This page is regulary refreshed at %s seconds interval.", 'wgpwpp'), 10)}</p>
+
+    <section id="control">
+        <button id="back" class="btn">{__('Previous step', 'wgpwpp')}</button>
+        <button id="check" class="btn btn-next">{__('Check status', 'wgpwpp')}</button>
+    </section>
+{/if}
+
+{/block}
+
+
+{block js}
+    {include parent}
+
+    <script>
+
+        let wgpwpp_button_repeat = document.querySelector("button#repeat");
+        if (wgpwpp_button_repeat)
+        {
+            wgpwpp_button_repeat.addEventListener("click", (event) => {
+                wgpwpp_button_repeat.classList.remove('btn-next');
+                wgpwpp_button_repeat.disabled = true;
+
+                let url = new URL(window.location.href);
+                url.searchParams.delete('service_error');
+                window.location.replace(url);
+            }, false);
+        }
+
+        let wgpwpp_button_check = document.querySelector("button#check");
+        if (wgpwpp_button_check)
+        {
+          wgpwpp_button_check.addEventListener("click", (event) => {
+                wgpwpp_service_create();
+            }, false);
+        }
+
+        function wgpwpp_service_create() {
+            if (wgpwpp_button_check) {
+              wgpwpp_button_check.classList.remove('btn-next');
+              wgpwpp_button_check.disabled = true;
+            }
+
+            let data = new FormData();
+            data.append('action', 'wgpwpp_layout_service_create');
+            data.append('_ajax_nonce', {$nonce_service});
+
+            fetch({$ajax_url}, {
+                method: 'POST',
+                body: data
+            })
+            .then((response) => response.json())
+            .then((data) => {
+                window.location.replace(data.redirect_uri);
+            })
+            .catch((e) => {
+                window.alert({__('Failed to start service setup process.', 'wgpwpp')});
+            })
+        }
+
+        {if !$service->is_created() && !$error}
+            setTimeout(wgpwpp_service_create, 10000)
+        {/if}
+
+    </script>
+{/block}

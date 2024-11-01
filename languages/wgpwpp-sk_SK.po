@@ -1,0 +1,1520 @@
+# Translation of Plugins - WEDOS Global (CDN Cache &amp; Security) - Stable (latest release) in Slovak
+# This file is distributed under the same license as the Plugins - WEDOS Global (CDN Cache &amp; Security) - Stable (latest release) package.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-04-29 21:10+0200\n"
+"PO-Revision-Date: 2024-04-29 21:10+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n >= 2 && n <= 4) ? 1 : "
+"2);\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-KeywordsList: __;_n:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: admin\n"
+"X-Poedit-SearchPath-2: includes\n"
+"X-Poedit-SearchPath-3: public\n"
+"X-Poedit-SearchPath-4: temp\n"
+
+#: admin/class-wgpwpp-admin.php:268
+msgid "Failed to download debug log"
+msgstr "Nepodarilo sa stiahnuť debug log"
+
+#: admin/class-wgpwpp-admin.php:276
+msgid "Debug log was sent to WEDOS support"
+msgstr "Debug log bol odoslaný podpore WEDOS"
+
+#: admin/class-wgpwpp-admin.php:278
+msgid "Failed to send debug log to WEDOS support"
+msgstr "Nepodarilo sa odoslať debug log podpore WEDOS"
+
+#: admin/class-wgpwpp-admin.php:285
+msgid "Debug log was deleted"
+msgstr "Debug log bol zmazaný"
+
+#: admin/class-wgpwpp-admin.php:296
+msgid "The plugin has been reset."
+msgstr "Plugin bol zresetovaný."
+
+#: admin/class-wgpwpp-admin.php:353
+msgid "WEDOS Global - Service status"
+msgstr "WEDOS Global - Stav služby"
+
+#: admin/class-wgpwpp-admin.php:353
+msgid "Service status"
+msgstr "Stav služby"
+
+#: admin/class-wgpwpp-admin.php:354
+msgid "WEDOS Global - Cache setting"
+msgstr "WEDOS Global - Nastavenia cache"
+
+#: admin/class-wgpwpp-admin.php:354
+msgid "Cache setting"
+msgstr "Nastavenia cache"
+
+#: admin/class-wgpwpp-admin.php:358
+msgid "WEDOS Global - Security reports setting"
+msgstr "WEDOS Global - Nastavenie bezpečnostných hlásení"
+
+#: admin/class-wgpwpp-admin.php:358
+msgid "Security reports"
+msgstr "Bezpečnostné hlásenia"
+
+#: admin/class-wgpwpp-admin.php:379
+msgid "Settings"
+msgstr "Nastavenia"
+
+#: admin/class-wgpwpp-admin.php:397
+msgid "Access denied!"
+msgstr "Prístup zamietnutý!"
+
+#: admin/class-wgpwpp-authorization.php:206
+msgid "Authorization failed. The user denied access for the plugin."
+msgstr "Autorizácia zlyhala. Používateľ zamietol prístup k tomuto pluginu."
+
+#: admin/class-wgpwpp-authorization.php:283
+msgid "Failed to receive plugin registration token from authorization server!"
+msgstr ""
+"Nepodarilo sa získať registračný token k pluginu z autorizačného servera!"
+
+#: admin/class-wgpwpp-authorization.php:287
+msgid "Failed to register OAuth2 client!"
+msgstr "Nepodarilo sa zaregistrovať klienta OAuth2!"
+
+#: admin/class-wgpwpp-authorization.php:529
+msgid "Invalid authorization response!"
+msgstr "Neplatná autorizačná odpoveď!"
+
+#: admin/class-wgpwpp-authorization.php:550
+msgid "Plugin registration failed"
+msgstr "Registrácia pluginu zlyhala"
+
+#: admin/class-wgpwpp-authorization.php:561
+msgid "Plugin successfully registered"
+msgstr "Plugin bol úspešne zaregistrovaný"
+
+#: admin/class-wgpwpp-authorization.php:582
+#: admin/class-wgpwpp-service-layout.php:72
+#: admin/partials/wp-wgp/src/templates_c/src-html-1.latte--9d8365f949.php:244
+msgid "Invalid request!"
+msgstr "Neplatný požiadavok!"
+
+#: admin/class-wgpwpp-cache-setting.php:92
+msgid ""
+"WEDOS Global page caching will cache your WordPress posts and pages as "
+"static files. These static files are then served to users, reducing the "
+"processing load on the server. This can improve performance several hundred "
+"times over for fairly static pages."
+msgstr ""
+"WEDOS Global cache ukladá stránky a príspevky WordPress ako statické súbory. "
+"Tieto súbory poskytuje návštevníkom webu, čím znižuje záťaž servera. V "
+"prípade statických stránok sa tak môže výkon zvýšiť až stonásobne."
+
+#: admin/class-wgpwpp-cache-setting.php:97
+#: admin/class-wgpwpp-cache-setting.php:108
+msgid ""
+"It seems there is activated another page caching plugin. We strongly "
+"recommend to deactivate all other page caching plugins before activating our "
+"page caching to avoid incompatibilities."
+msgstr ""
+"Zdá sa, že máte aktivovaný ďalší plugin pre cache. Dôrazne odporúčame "
+"deaktivovať všetky ostatné cachovacie pluginy pred zapnutím našeho, aby ste "
+"sa vyhli problémom s kompatibilitou."
+
+#: admin/class-wgpwpp-cache-setting.php:98
+msgid "Detected page caching plugins:"
+msgstr "Nájdené cachovacie pluginy:"
+
+#: admin/class-wgpwpp-cache-setting.php:123
+msgid "WEDOS Global page caching is active and working."
+msgstr "Cachovánie stránok na WEDOS Global je aktívne a funkčné."
+
+#: admin/class-wgpwpp-cache-setting.php:140
+msgid "WordPress page caching status"
+msgstr "Stav cache stránok WordPress"
+
+#: admin/class-wgpwpp-cache-setting.php:167
+msgid ""
+"A global CDN from WEDOS will give you significantly better responsiveness "
+"and faster loading speeds for website content around the world. This will "
+"result in a better user experience, higher search engine rankings, more "
+"orders, leads and returning customers. By maximizing your website’s "
+"performance, you can improve your conversion rate by several percent!"
+msgstr ""
+
+#: admin/class-wgpwpp-cache-setting.php:171
+#: admin/class-wgpwpp-cache-setting.php:223
+msgid ""
+"To activate CDN Cache, it is necessary to complete the WEDOS Global service "
+"activation process."
+msgstr "Ak chcete aktivovať CDNcache , dokončite aktiváciu WEDOS Global."
+
+#: admin/class-wgpwpp-cache-setting.php:175
+msgid "Go to complete the WEDOS Global service activation process"
+msgstr "Prejdite na dokončenie aktivácie služby WEDOS Global"
+
+#: admin/class-wgpwpp-cache-setting.php:182
+msgid "WEDOS Global CDN cache is active and working."
+msgstr "WEDOS Global CDN cache je aktivovaná a funguje."
+
+#: admin/class-wgpwpp-cache-setting.php:198
+msgid "WEDOS Global CDN Cache status"
+msgstr "Stav WEDOS Global CDN cache"
+
+#: admin/class-wgpwpp-cache-setting.php:238
+msgid "Something went wrong. Try it later please."
+msgstr "Niečo sa pokazilo. Skúste to prosím neskôr."
+
+#: admin/class-wgpwpp-cache-setting.php:260
+msgid ""
+"Something went wrong. Try it again please. Or check cache status on "
+"Wordpress Health page."
+msgstr ""
+"Niečo sa pokazilo. Skúste to prosím znova alebo skontrolujte stav cache na "
+"stránke Zdravie webu WordPress."
+
+#: admin/class-wgpwpp-cache-setting.php:285
+#: admin/class-wgpwpp-reports-setting.php:328
+msgid "deactivate"
+msgstr "zakázať"
+
+#: admin/class-wgpwpp-cache-setting.php:285
+msgid "enabled"
+msgstr "aktivované"
+
+#: admin/class-wgpwpp-cache-setting.php:286
+#: admin/class-wgpwpp-reports-setting.php:329
+msgid "activate"
+msgstr "aktivovať"
+
+#: admin/class-wgpwpp-cache-setting.php:286
+msgid "disabled"
+msgstr "zakázané"
+
+#: admin/class-wgpwpp-reports-setting.php:128
+msgid "Choose preferred reports language (at least one)"
+msgstr "Vyberte preferovaný jazyk hlásenia (aspoň jeden)"
+
+#: admin/class-wgpwpp-reports-setting.php:139
+msgid "Regular security reports"
+msgstr "Pravidelné bezpečnostné hlásenia"
+
+#: admin/class-wgpwpp-reports-setting.php:143
+msgid ""
+"These reports contain information about attacks, content caching, site "
+"availability and potential problems."
+msgstr ""
+"Tieto hlásenia obsahujú informácie o útokoch, ukladaní obsahu do cache, "
+"dostupnosti webu a potenciálnych problémoch."
+
+#: admin/class-wgpwpp-reports-setting.php:149
+msgid "I want to receive daily report"
+msgstr "Chcem dostávať denné hlásenia"
+
+#: admin/class-wgpwpp-reports-setting.php:160
+msgid "I want to receive weekly report"
+msgstr "Chcem dostávať týždenné hlásenia"
+
+#: admin/class-wgpwpp-reports-setting.php:171
+msgid "I want to receive monthly report"
+msgstr "Chcem dostávať mesačné reporty"
+
+#: admin/class-wgpwpp-reports-setting.php:185
+msgid "Critical information regarding your WordPress installation"
+msgstr "Kritické informácie o vašom WordPress"
+
+#: admin/class-wgpwpp-reports-setting.php:189
+msgid ""
+"If we detect a problem with your WordPress installation, domain, web hosting "
+"or IP address, we will send you a warning as soon as possible."
+msgstr ""
+"Ak zistíme problém so súbormi WordPress, doménou, webhostingom alebo IP "
+"adresou, čo najskôr vás budeme informovať."
+
+#: admin/class-wgpwpp-reports-setting.php:195
+msgid "I want to receive critical information as soon as possible"
+msgstr "Chcem čo najskôr získať kritické informácie"
+
+#: admin/class-wgpwpp-reports-setting.php:209
+msgid "Points of interest, recommendations and other information"
+msgstr "Zaujímavosti, odporúčania a ďalšie informácie."
+
+#: admin/class-wgpwpp-reports-setting.php:213
+msgid ""
+"WEDOS has been dealing with cyber security and website performance "
+"optimization since 2010. We protect hundreds of thousands of websites, so we "
+"know a lot about current cyber threats and are happy to share important "
+"information with you. As well as how your WordPress can be faster and more "
+"efficient."
+msgstr ""
+"WEDOS sa od roku 2010 zaoberá kybernetickou bezpečnosťou a optimalizáciou "
+"výkonu webov. Chránime státisíce webových stránok, takže o aktuálnych "
+"kybernetických hrozbách vieme veľa a radi sa s vami podelíme o dôležité "
+"informácie. Poradíme vám tiež, ako zrýchliť a optimalizovať WordPress."
+
+#: admin/class-wgpwpp-reports-setting.php:219
+msgid "I want to receive information about current cyber threats"
+msgstr "Chcem dostávať informácie o aktuálnych kybernetických hrozbách"
+
+#: admin/class-wgpwpp-reports-setting.php:230
+msgid "I want to receive information about WEDOS news and offers"
+msgstr "Chcem dostávať novinky a ponuky spoločnosti WEDOS"
+
+#: admin/class-wgpwpp-reports-setting.php:241
+msgid ""
+"I want to receive information on how to improve the performance of my "
+"WordPress"
+msgstr ""
+"Chcem dostávať informácie o možnostiach zlepšenia výkonu môjho WordPress"
+
+#: admin/class-wgpwpp-reports-setting.php:252
+msgid ""
+"I want to receive information about trainings, tutorials, podcasts and other "
+"study materials from WEDOS"
+msgstr ""
+"Chcem dostávať informácie o návodoch, podcastoch a ďalších vzdelávacích "
+"materiáloch WEDOS"
+
+#: admin/class-wgpwpp-reports-setting.php:328
+msgid "ON"
+msgstr "ZAPNUTÉ"
+
+#: admin/class-wgpwpp-reports-setting.php:329
+msgid "OFF"
+msgstr "VYPNUTÉ"
+
+#: admin/class-wgpwpp-service-layout.php:98
+#: admin/class-wgpwpp-service-layout.php:205
+msgid "Invalid request. Please refresh current page and try it again."
+msgstr "Neplatný požiadavok. Prosím, obnovte túto stránku a skúste to znova."
+
+#: admin/class-wgpwpp-service-layout.php:115
+msgid ""
+"We are still unable to resolve required DNS servers by the domain. This may "
+"take up few hours. Be patient please."
+msgstr ""
+"Stále sa nám nedarí resolvovať požadované servery DNS podľa domény. Môže to "
+"trvať niekoľko hodín. Buďte prosím trpezliví."
+
+#: admin/class-wgpwpp-service-layout.php:119
+msgid ""
+"We are still unable to resolve required TXT record. This may take up one "
+"hour based on TTL. Be patient please."
+msgstr ""
+"Stále sa nám nedarí získať požadovaný záznam TXT. Môže to trvať až jednu "
+"hodinu v závislosti na TTL. Buďte prosím trpezliví."
+
+#: admin/class-wgpwpp-service-layout.php:123
+msgid ""
+"TLS certificate for encrypted data transfer is still generating. This may "
+"take few minutes. Please be patient."
+msgstr ""
+"Certifikát TLS pre šifrovaný prenos dát sa stále generuje. Môže to trvať "
+"niekoľko minút. Buďte prosím trpezliví."
+
+#: admin/class-wgpwpp-service-layout.php:129
+#, php-format
+msgid ""
+"Your domain %s is still not directed to our proxy servers by setting the DNS "
+"records in the table below."
+msgstr ""
+"Vaša doména %s stále nie je nasmerovaná na naše proxy servery nastavením DNS "
+"záznamov uvedených v tabuľke nižšie."
+
+#: admin/class-wgpwpp-service-layout.php:142
+msgid "The service is stopped!"
+msgstr "Služba je pozastavená!"
+
+#: admin/class-wgpwpp-service-layout.php:147
+msgid "The service is expired!"
+msgstr "Platnosť služby vypršala!"
+
+#: admin/class-wgpwpp-service-layout.php:153
+msgid "WEDOS Global service is properly configured to protect you website."
+msgstr ""
+"Služba WEDOS Global je správne nakonfigurovaná na ochranu vašej webovej "
+"stránky."
+
+#: admin/class-wgpwpp-service-layout.php:175
+#: admin/class-wgpwpp-service-layout.php:215
+msgid ""
+"Failed to setup service. The plugin is unable to parse your WordPress "
+"installation domain name!"
+msgstr ""
+"Zriadenie služby zlyhalo, pretože plugin nedokáže zistiť doménu, na ktorej "
+"je nainštalovaný váš WordPress!"
+
+#: admin/class-wgpwpp-service-layout.php:179
+#: admin/class-wgpwpp-service-layout.php:219
+#, php-format
+msgid "Your domain name %s is not valid for WEDOS Global service."
+msgstr "Vaša doména %s nie je validná pre službu WEDOS Global."
+
+#: admin/class-wgpwpp-service-layout.php:183
+msgid ""
+"The plugin is unable to connect with WEDOS Global API. Please try again later"
+msgstr ""
+"Plugin sa nedokáže pripojiť k API WEDOS Global. Skúste to prosím neskôr"
+
+#: admin/class-wgpwpp-service-layout.php:223
+#: admin/class-wgpwpp-service-layout.php:231
+#, php-format
+msgid ""
+"Unfortunately, it is not possible to add the subdomain %s on which your "
+"WordPress website is hosted."
+msgstr ""
+"Bohužiaľ nie je možné pridať subdoménu %s, na ktorej je váš WordPress "
+"umiestnený."
+
+#: admin/class-wgpwpp-service-layout.php:224
+msgid "The WEDOS Global service is intended only for second level domains."
+msgstr "Služba WEDOS Global Protection je určená len pre domény druhej úrovne."
+
+#: admin/class-wgpwpp-service-layout.php:225
+#, php-format
+msgid "WGPWPP - How to secure my WordPress subdomain %s"
+msgstr "WGPWPP - Ako zabezpečiť subdoménu %s WordPress"
+
+#: admin/class-wgpwpp-service-layout.php:227
+#, php-format
+msgid ""
+"Please <a href='%s' target='_blank'>contact</a> our support for information "
+"on how to protect your website."
+msgstr ""
+"Prosím <a href='%s' target='_blank'>kontaktujte</a> našu podporu pre "
+"informácie o tom, ako chrániť vaše webové stránky."
+
+#: admin/class-wgpwpp-service-layout.php:232
+msgid "Unsupported TLD."
+msgstr "Nepodporovaná TLD."
+
+#: admin/class-wgpwpp-service-layout.php:236
+msgid ""
+"The plugin is unable to connect with WEDOS Global API. Please try again "
+"later."
+msgstr "Plugin sa nemôže pripojiť k API WEDOS Global. Skúste to prosím neskôr."
+
+#: admin/class-wgpwpp-service-layout.php:269
+#: admin/class-wgpwpp-service-layout.php:276
+msgid ""
+"Failed to show verification code. Please start the plugin registration "
+"process again."
+msgstr ""
+"Nepodarilo sa zobraziť overovací kód. Spustite prosím proces registrácie "
+"pluginu znovu."
+
+#: admin/class-wgpwpp-service-layout.php:561
+#, php-format
+msgid ""
+"In the table below you can see all DNS records we have detected for your "
+"domain %s."
+msgstr ""
+"V tabuľke nižšie môžete vidieť všetky záznamy DNS, ktoré sme zistili pre "
+"vašu doménu %s."
+
+#: admin/class-wgpwpp-service-layout.php:562
+msgid ""
+"We strongly recommend to check the DNS records if there is no one missing."
+msgstr "Dôrazne odporúčame skontrolovať, či nechýba žiadny záznam v DNS."
+
+#: admin/class-wgpwpp-service-layout.php:616
+msgid "The service is in TRIAL mode"
+msgstr "Služba je v skúšobnom (TRIAL) móde"
+
+#: admin/class-wgpwpp-service-layout.php:618
+#, php-format
+msgid "(%s day left)."
+msgid_plural "(%s days left)."
+msgstr[0] "(zostáva %s deň)."
+msgstr[1] "(zostáva %s dní)."
+msgstr[2] "(zostáva %s dní)."
+
+#: admin/class-wgpwpp-service-layout.php:621
+msgid "Upgrade the service to the full version"
+msgstr "Upgrade služby na plnú verziu"
+
+#: admin/class-wgpwpp-service-layout.php:628
+msgid "The service is stopped."
+msgstr "Služba je pozastavená."
+
+#: admin/class-wgpwpp-service-layout.php:629
+#: admin/partials/wp-wgp/src/templates_c/src-html-5.latte--1b2a066443.php:208
+msgid "Go to the Dashboard"
+msgstr "Prejsť na Nástenku"
+
+#: admin/class-wgpwpp-service-layout.php:630
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:202
+msgid "or"
+msgstr "alebo"
+
+#: admin/class-wgpwpp-service-layout.php:630
+msgid "Contact support"
+msgstr "Kontaktovať podporu"
+
+#: admin/class-wgpwpp-service-layout.php:631
+msgid "for more information"
+msgstr "pre viac informácií"
+
+#: admin/class-wgpwpp-service-layout.php:637
+msgid "The service is expired."
+msgstr "Služba expirovala."
+
+#: admin/class-wgpwpp-service-layout.php:639
+msgid "Order service renewal"
+msgstr "Objednávka predĺženia služby"
+
+#: admin/class-wgpwpp-service-layout.php:641
+#: admin/class-wgpwpp-service-layout.php:657
+msgid "There is pending renewal order waiting for"
+msgstr "U služby evidujeme objednávku na predĺženie ktorá čaká na"
+
+#: admin/class-wgpwpp-service-layout.php:642
+#: admin/class-wgpwpp-service-layout.php:658
+msgid "payment"
+msgstr "platba"
+
+#: admin/class-wgpwpp-verification.php:349
+msgid "Complete the registration verification of the WEDOS Global plugin"
+msgstr "Dokončite overenie registrácie pluginu WEDOS Global Protection"
+
+#: admin/class-wgpwpp-verification.php:351
+msgid "Dear WordPress administrator,"
+msgstr "Vážený administrátor WordPress,"
+
+#: admin/class-wgpwpp-verification.php:352
+msgid ""
+"We would like to inform you that a short time ago you requested the pairing "
+"of the WEDOS Global WordPress Plugin with your WEDOS customer account."
+msgstr ""
+"Radi by sme vás informovali, že ste prednedávnom podali žiadosť o spárovanie "
+"WordPress pluginu WEDOS Global s vaším zákazníckym účtom WEDOS."
+
+#: admin/class-wgpwpp-verification.php:353
+msgid ""
+"In order to successfully pair the plugin and your customer account, you must "
+"enter the following verification code:"
+msgstr ""
+"K úspešnému spárovaniu pluginu a vášho zákazníckeho účtu musíte zadať "
+"nasledujúci overovací kód:"
+
+#: admin/class-wgpwpp-verification.php:357
+msgid ""
+"After entering the code, you will be able to complete the registration "
+"process and pair the plugin and your customer account."
+msgstr ""
+"Po zadaní kódu budete môcť dokončiť proces registrácie a spárovať plugin a "
+"váš zákaznícky účet."
+
+#: admin/class-wgpwpp-verification.php:358
+msgid "WEDOS Internet, a.s."
+msgstr "WEDOS Internet, a.s."
+
+#: admin/partials/wgpwpp-cache-setting-display.php:23
+#: admin/partials/wgpwpp-reports-setting-display.php:23
+msgid "Settings Saved"
+msgstr "Nastavenie bolo uložené"
+
+#: admin/partials/wgpwpp-cache-setting-display.php:35
+msgid "Wordpress Cache"
+msgstr "Wordpress Cache"
+
+#: admin/partials/wgpwpp-cache-setting-display.php:36
+msgid "WEDOS Global CDN Cache"
+msgstr "WEDOS Global CDN Cache"
+
+#: admin/partials/wgpwpp-cache-setting-display.php:61
+#: admin/partials/wgpwpp-reports-setting-display.php:37
+#: admin/partials/wgpwpp-reports-setting-display.php:54
+msgid "Save"
+msgstr "Uložiť"
+
+#: admin/partials/wgpwpp-reports-setting-display.php:36
+msgid "WEDOS Global - Security Reports Setting"
+msgstr "WEDOS Global - Nastavenie bezpečnostných hlásení"
+
+#: admin/partials/wgpwpp-reports-setting-display.php:42
+#, php-format
+msgid "Choose how often you want to receive security reports to your email %s."
+msgstr ""
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-1.latte--9d8365f949.php:57
+#: admin/partials/wp-wgp/src/templates_c/src-html-1.latte--9d8365f949.php:87
+#, php-format
+msgid "Registration at %s"
+msgstr "Registrácia na %s"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-1.latte--9d8365f949.php:84
+msgid "A <span>big step</span> for your<br> website"
+msgstr "<span>Veľký krok</span> pre vaše<br> webové stránky"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-1.latte--9d8365f949.php:92
+#, php-format
+msgid ""
+"The plugin has already been successfully paired with your customer account "
+"at %s"
+msgstr "Plugin už bol úspešne spárovaný s vaším zákazníckym účtom na %s"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-1.latte--9d8365f949.php:95
+#: admin/partials/wp-wgp/src/templates_c/src-html-2.latte--e03f74e866.php:83
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:250
+msgid "Now you can proceed with the next steps of setting up the plugin."
+msgstr "Teraz môžete pristúpiť k ďalšiemu kroku nastavenia pluginu."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-1.latte--9d8365f949.php:103
+#: admin/partials/wp-wgp/src/templates_c/src-html-1.latte--9d8365f949.php:135
+msgid "Continue in plugin settings"
+msgstr "Pokračujte v nastavovaní pluginu"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-1.latte--9d8365f949.php:110
+msgid ""
+"It seems you haven`t receive verification code in your mailbox. You can show "
+"your verification code by clicking the button below."
+msgstr ""
+"Zdá sa, že ste nedostali overovací kód do vašej e-mailovej schránky. "
+"Overovací kód môžete zobraziť kliknutím na tlačidlo nižšie."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-1.latte--9d8365f949.php:113
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:159
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:164
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:211
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:176
+msgid "Click to copy"
+msgstr "Kliknutím skopírujte."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-1.latte--9d8365f949.php:117
+msgid "Show verification code"
+msgstr "Zobraziť overovací kód"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-1.latte--9d8365f949.php:123
+#, php-format
+msgid ""
+"The first thing to do is to register at %s to connect the plugin with your "
+"customer account at %s"
+msgstr ""
+"Najprv sa musíte zaregistrovať na adrese %s, aby ste prepojili plugin s "
+"vaším zákazníckym účtom na adrese %s"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-1.latte--9d8365f949.php:126
+#, php-format
+msgid ""
+"After registration and successful login to your customer account, a "
+"verification code will be sent to your e-mail address assigned to your "
+"WordPress account: %s"
+msgstr ""
+"Po dokončení registrácie a úspešnom prihlásení do vášho zákazníckeho účtu "
+"vám zašleme overovací kód na e-mail vášho WordPress účtu: %s"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-1.latte--9d8365f949.php:129
+#, php-format
+msgid ""
+"Use this verification code to complete plugin`s verification process at %s. "
+"You will be redirected back to your WordPress admin panel after succesful "
+"verification."
+msgstr ""
+"Týmto overovacím kódom dokončite proces overovania %s. Po dokončení "
+"overovania budete presmerovaní späť do administrácie WordPress."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-1.latte--9d8365f949.php:140
+msgid "Sign in"
+msgstr "Prihlásiť sa"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-1.latte--9d8365f949.php:143
+msgid "Sign up"
+msgstr "Zaregistrovať sa"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-1.latte--9d8365f949.php:158
+msgid "Setup in 5 minutes."
+msgstr "Zariadenie do 5 minút."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-1.latte--9d8365f949.php:167
+msgid "No credit card required."
+msgstr "Kreditná karta nie je potrebná."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-1.latte--9d8365f949.php:176
+msgid "Free Trial or Free version"
+msgstr "Skúšobná prevádzka zadarmo alebo tarif Free"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-1.latte--9d8365f949.php:185
+msgid "No need to move data, change hosting or servers."
+msgstr "Nie je potrebné sťahovať dáta, meniť hosting ani servery."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-1.latte--9d8365f949.php:306
+msgid "Failed to redirect to sign in / sign up form"
+msgstr "Presmerovanie na prihlasovací/registračný formulár zlyhalo."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-2.latte--e03f74e866.php:46
+#: admin/partials/wp-wgp/src/templates_c/src-html-2.latte--e03f74e866.php:61
+msgid "Service setup"
+msgstr "Zriadenie služby"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-2.latte--e03f74e866.php:67
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:71
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:72
+#, php-format
+msgid "The plugin has not been yet paired with your customer account at %s"
+msgstr "Tento plugin ešte nebol spárovaný s vaším zákazníckym účtom %s"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-2.latte--e03f74e866.php:70
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:74
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:75
+msgid "Return back to the first step and register the plugin."
+msgstr "Vráťte sa späť k prvému kroku a zaregistrujte plugin."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-2.latte--e03f74e866.php:74
+#: admin/partials/wp-wgp/src/templates_c/src-html-2.latte--e03f74e866.php:89
+#: admin/partials/wp-wgp/src/templates_c/src-html-2.latte--e03f74e866.php:103
+#: admin/partials/wp-wgp/src/templates_c/src-html-2.latte--e03f74e866.php:126
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:78
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:89
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:100
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:122
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:186
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:236
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:256
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:79
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:90
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:104
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:115
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:129
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:266
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:280
+msgid "Previous step"
+msgstr "Predošlý krok"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-2.latte--e03f74e866.php:80
+#, php-format
+msgid "%s service was successfully created for your domain %s."
+msgstr "Služba %s bola úspešne vytvorená pre vašu doménu %s."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-2.latte--e03f74e866.php:92
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:259
+msgid "Next step"
+msgstr "Ďalší krok"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-2.latte--e03f74e866.php:99
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:96
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:276
+msgid "An error occured during service setup proccess. Please try again."
+msgstr ""
+"Počas procesu nastavovania služby došlo k chybe. Skúste to prosím znova."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-2.latte--e03f74e866.php:106
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:103
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:283
+msgid "Repeat request"
+msgstr "Opakovaná žiadosť"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-2.latte--e03f74e866.php:112
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:109
+#, php-format
+msgid "%s service is now preparing to be set up for your domain %s."
+msgstr "Pripravujeme nastavenie služby %s pre vašu doménu %s."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-2.latte--e03f74e866.php:115
+#, php-format
+msgid "This step should take only few seconds. %s"
+msgstr "Tento krok by mal trvať len niekoľko sekúnd. %s"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-2.latte--e03f74e866.php:115
+msgid "Be patient please."
+msgstr "Majte prosím strpenie."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-2.latte--e03f74e866.php:121
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:117
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:125
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:261
+#, php-format
+msgid "This page is regulary refreshed at %s seconds interval."
+msgstr "Táto stránka sa pravidelne obnovuje v intervale %s sekúnd."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-2.latte--e03f74e866.php:129
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:125
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:189
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:239
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:132
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:269
+msgid "Check status"
+msgstr "Overenie stavu"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-2.latte--e03f74e866.php:193
+msgid "Failed to start service setup process."
+msgstr "Nepodarilo sa začať proces nastavenia služby."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:50
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:65
+msgid "DNS setting"
+msgstr "Nastavenie DNS"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:85
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:86
+msgid ""
+"The WEDOS Global service has not been yet completelly set up. Please return "
+"back to the second step and finish service set up process."
+msgstr ""
+"Služba WEDOS Global ešte nebola úplne nastavená. Vráťte sa späť na druhý "
+"krok a dokončite proces nastavenia služby."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:112
+msgid "This action may take few minutes. Be patient please."
+msgstr "Tento úkon môže trvať niekoľko minút. Buďte prosím trpezliví."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:131
+#, php-format
+msgid ""
+"We have to verify you are owner of the domain %s before we can continue with "
+"plugin setting."
+msgstr ""
+"Pred pokračovaním v nastaveniach pluginu musíme overiť, že ste vlastníkom "
+"domény %s."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:134
+#, php-format
+msgid ""
+"Domain ownership verification is based on DNS TXT record verification. %s"
+msgstr "Overenie vlastníctva domény je založené na overení DNS TXT záznamu. %s"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:134
+msgid ""
+"Ask the DNS server provider for your domain to set up the following TXT "
+"record:"
+msgstr ""
+"Požiadajte poskytovateľa DNS servera pre vašu doménu, aby nastavil "
+"nasledujúci TXT záznam:"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:142
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:149
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:221
+#: admin/partials/wp-wgp/src/templates_c/src-html-5.latte--1b2a066443.php:161
+msgid "type"
+msgstr "typ"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:145
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:152
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:224
+msgid "name"
+msgstr "názov"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:148
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:155
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:227
+#: admin/partials/wp-wgp/src/templates_c/src-html-5.latte--1b2a066443.php:164
+msgid "data"
+msgstr "dáta"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:151
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:158
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:230
+#: admin/partials/wp-wgp/src/templates_c/src-html-5.latte--1b2a066443.php:167
+msgid "TTL"
+msgstr "TTL"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:177
+msgid "Note that the TXT record setting will take effect within one hour."
+msgstr ""
+"Upozorňujeme, že nastavenie TXT záznamu sa prejaví zvyčajne do jednej hodiny."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:181
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:232
+#, php-format
+msgid "This page is regulary refreshed at %s minutes interval."
+msgstr "Táto stránka sa pravidelne obnovuje každých %s minút."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:196
+#, php-format
+msgid ""
+"The %s service is now ready to protect your domain. To be protected the "
+"domain must use our DNS servers that are under our protection."
+msgstr ""
+"Služba %s je odteraz pripravená chrániť vašu doménu. Aby bola doména "
+"chránená, musí používať naše servery DNS, ktoré sú pod našou ochranou."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:199
+msgid ""
+"Our DNS servers are prepared to serve DNS records for your domain. DNS "
+"records were copied from currently assigned DNS servers to the domain."
+msgstr ""
+"Naše servery DNS sú pripravené na poskytovanie DNS záznamov pre vašu doménu. "
+"Záznamy DNS boli skopírované z aktuálne pridelených serverov DNS pre doménu."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:202
+#, php-format
+msgid ""
+"Ask the registrar of domain %s to assign following DNS servers to the "
+"domain. Or you can do it yourself in registrar`s admin panel if there is "
+"this option available. %s"
+msgstr ""
+"Požiadajte registrátora domény %s o nastavenie DNS serverov uvedených "
+"nižšie. Ak máte prístup k tomuto nastaveniu, môžete to urobiť ručne u vášho "
+"registrátora. %s"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:202
+msgid "All 4 DNS servers must be set up."
+msgstr "Nastavte všetky 4 DNS servery."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:224
+msgid ""
+"You can continue as soon as we are able to resolve mentioned nameservers by "
+"the domain."
+msgstr ""
+"Môžete pokračovať akonáhle diagnostikujeme správnu konfiguráciu DNS serverov "
+"domény."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:229
+msgid ""
+"Note that it may take up to several hours for the change of DNS servers to "
+"take effect."
+msgstr ""
+"Nezabudnite, že zmena serverov DNS sa môže prejaviť až po niekoľkých "
+"hodinách."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-3.latte--f6a083d98f.php:247
+msgid "Domain nameservers are properly configured."
+msgstr "DNS servery sú správne nakonfigurované."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:50
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:65
+msgid "Finishing setting up the service"
+msgstr "Dokončuje sa nastavenie služby"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:97
+#, php-format
+msgid ""
+"Ownership of the domain %s has not been successfully verified based on TXT "
+"DNS record in domain`s DNS zone."
+msgstr "Vlastníctvo domény %s bolo úspešne overené záznamom TXT v DNS."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:100
+msgid "Return back to the third step and verify domain`s ownership."
+msgstr "Vráťte sa na krok 3 a overte vlastníctvo domény."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:111
+msgid ""
+"Domain`s DNS configuration is not valid. Return to the fourth step and "
+"finish domain`s DNS configuration."
+msgstr ""
+"Konfigurácia domény DNS nefunguje. Vráťte sa späť ku kroku 4 a dokončite "
+"konfiguráciu DNS."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:122
+#, php-format
+msgid "Generating TLS certificate for encrypted data transfer. %s"
+msgstr "Prebieha generovanie certifikátu TLS pre šifrovaný prenos údajov. %s"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:122
+msgid "This may take few minutes. Please be patient."
+msgstr "Môže to trvať niekoľko minút. Buďte prosím trpezliví."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:138
+msgid ""
+"Everything is now ready to protect your website. There is only one thing "
+"left to do."
+msgstr ""
+"Všetko je pripravené na ochranu vašich webových stránok. Zostáva už iba "
+"jedna vec."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:141
+msgid ""
+"The last thing we need is to direct your domain to our proxy servers by "
+"setting DNS records mentioned in the table below."
+msgstr ""
+"Na záver je potrebné nasmerovať vašu doménu na naše proxy servery nastavením "
+"záznamov DNS podľa nasledujúcej tabuľky."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:194
+msgid ""
+"You can use the link below to grant consent to change DNS records "
+"automatically by us or you can do it manually by editing DNS records for "
+"your domain."
+msgstr ""
+"Pomocou nižšie uvedeného odkazu nám udelíte súhlas s automatickými zmenami "
+"záznamov DNS alebo manuálne upravte záznamy DNS vašej domény."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:199
+#, php-format
+msgid ""
+"Use this link to give consent with automatic DNS setting of your domain %s"
+msgstr ""
+"Pomocou tohto odkazu odsúhlasíte automatické nastavenia DNS pre vašu doménu "
+"%s."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:210
+#, php-format
+msgid ""
+"Use this link to be redirected to your %s domain`s DNS records "
+"administration page to set up the above DNS records."
+msgstr ""
+"Pomocou tohto odkazu prejdete na správu záznamov DNS domény %s a nastavíte "
+"hore uvedené záznamy DNS."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:290
+msgid "Everething is done. Your website is now under our protection."
+msgstr "Všetko je hotové. Teraz chránime vaše webové stránky."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-4.latte--c2dcd98c76.php:294
+msgid "Finish"
+msgstr "Dokončiť"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-5.latte--1b2a066443.php:54
+#: admin/partials/wp-wgp/src/templates_c/src-html-5.latte--1b2a066443.php:76
+msgid "Congratulations"
+msgstr "Gratulujeme"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-5.latte--1b2a066443.php:79
+#, php-format
+msgid ""
+"Your website on the domain %s is now under the protection of our service %s."
+msgstr "Váš web na doméne %s je odteraz chránený našou službou %s."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-5.latte--1b2a066443.php:88
+msgid "service name"
+msgstr "názov služby"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-5.latte--1b2a066443.php:91
+msgid "service variant"
+msgstr "tarif služby"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-5.latte--1b2a066443.php:94
+msgid "service state"
+msgstr "stav služby"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-5.latte--1b2a066443.php:97
+msgid "service expiration"
+msgstr "koniec platnosti služby"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-5.latte--1b2a066443.php:155
+msgid ""
+"Following IP addresses of proxy servers were assigned for your domain to be "
+"protected."
+msgstr ""
+"Vašej doméne sme priradili nasledujúce IP adresy ochranných proxy serverov:"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-5.latte--1b2a066443.php:191
+msgid ""
+"In the table you can see IP addresses of our proxy servers assigned for your "
+"domain. These IP addresess were set up in previous step. We show it here "
+"only for your information if you need to check domains DNS setting."
+msgstr ""
+"V tabuľke nájdete IP adresy proxy serverov priradených k vašej doméne. "
+"Nastavili ste ich už v predchádzajúcom kroku, tu ich uvádzame pre prípad, že "
+"by ste potrebovali skontrolovať nastavenia záznamov DNS vašej domény."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-5.latte--1b2a066443.php:204
+msgid "We wish our product to help you achieve your goals."
+msgstr ""
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-5.latte--1b2a066443.php:213
+msgid "Check service status"
+msgstr "Overiť stav služby"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:65
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:69
+msgid "What sort of company is WEDOS?"
+msgstr "Čo je WEDOS za spoločnosť?"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:72
+msgid ""
+"WEDOS was founded in the year 2010, and has since grown to become the "
+"biggest webhosting provider in the Czech Republic. The company invests in "
+"technology, innovation and research to offer quality services for affordable "
+"prices to the widest possible customer base. WEDOS maintains two privately-"
+"owned datacenters and is about to build a third one."
+msgstr ""
+"Spoločnosť WEDOS bola založená v roku 2010 a je najväčším poskytovateľom "
+"webhostingových služieb v Českej republike. Spoločnosť sa zameriava na "
+"investície do technológií, inovácií a výskumu s cieľom ponúknuť čo najširšiu "
+"škálu kvalitných služieb za priaznivé ceny. Spoločnosť WEDOS prevádzkuje dve "
+"vlastné súkromné datacentrá a pracuje na dokončení tretieho."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:75
+msgid ""
+"The first datacenter, WEDOS DC 1 \"Bunkr\", was founded in 2010 and "
+"modernized between 2018 and 2020. The second datacenter, WEDOS DC 2 "
+"\"Podksalí\", is a unique project designed to cool servers using oil and "
+"water. The third datacenter, WEDOS DC 3 \"Kravín\" is under development and "
+"meant to house more servers and storage. WEDOS also expands internationally "
+"with its WEDOS Global project."
+msgstr ""
+"Prvé datacentrum, WEDOS DC 1 \"Bunker\", bolo zriadené v roku 2010 a v "
+"rokoch 2018 až 2020 podstúpilo modernizáciu. Druhé datacentrum, WEDOS DC 2 "
+"\"Podskalí\", je jedinečný projekt, v ktorom sú servery chladené olejovou "
+"lázňou a vodným chladením. Tretie datacentrum, WEDOS DC 3 \"Kravín\", je "
+"plánované a bude slúžiť ako ďalší priestor pre ďalšie servery a diskové "
+"úložiská. Spoločnosť WEDOS rozširuje svoju činnosť aj na medzinárodnej "
+"úrovni prostredníctvom projektu WEDOS Global."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:83
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:87
+msgid "How do I set the service up?"
+msgstr "Ako prebieha aktivácia?"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:92
+msgid "Registration: Create an account at login.wedos.com."
+msgstr "Registrácia: Vytvorte si nový účet na adrese login.wedos.com."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:95
+msgid "SMS verification: Verify your account via SMS code."
+msgstr "SMS verifikácia: Overte si účet prostredníctvom SMS kódu."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:98
+msgid ""
+"Email verification: Verify the website via code sent to the WordPress "
+"administrator's e-mail."
+msgstr ""
+"Overenie e-mailom: Overte webové stránky pomocou kódu zaslaného na e-mail "
+"administrátora."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:101
+msgid "Automatic protection: The system sets up protection automatically."
+msgstr "Automatická ochrana: Nastavenie ochrany sa vykoná automaticky."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:104
+msgid "DNS scan: Scan and confirm your DNS records."
+msgstr "Skenovanie DNS: Preveďte skenovanie a potvrďte záznamy DNS."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:107
+msgid "DNS settings: Set up and check DNS servers."
+msgstr "Nastavenia DNS: Nastavte a overte servery DNS."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:110
+msgid "Finish: Save the plugin settings."
+msgstr "Dokončiť: Uložte nastavenia pluginu."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:120
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:124
+msgid "How does the plugin work?"
+msgstr "Ako tento plugin funguje a čo robí?"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:127
+msgid ""
+"This plugin optimizes web performance and security. Its main purpose is to "
+"load web pages faster, decrease server loads and protect against various "
+"online threats, such as DDoS attacks or unauthorized access. Install the "
+"plugin in your WordPress administration and change DNS servers according to "
+"instructions, so it can effectively monitor and filter website traffic."
+msgstr ""
+"Tento plugin sa používa na optimalizáciu a zabezpečenie webových stránok. "
+"Jeho hlavným účelom je zlepšiť rýchlosť načítania stránok, znížiť záťaž "
+"servera a poskytnúť ochranu pred rôznymi online hrozbami, ako sú útoky DDoS "
+"alebo neoprávnený prístup. Plugin funguje tak, že sa nainštaluje do "
+"administrácie WordPress. Plugin vyžaduje zmenu serverov DNS, aby dokázal "
+"dokonale filtrovať prevádzku, ktorá smeruje na vaše stránky."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:130
+msgid ""
+"The plugin works on the anycast proxy principle, which directs traffic "
+"through its optimized and secure servers. These servers process and optimize "
+"content before it reaches users. The plugin also utilizes intelligent "
+"caching, compression and minification of files to further speed up rendering "
+"times and reduce server load. It also features a firewall, bot detection, "
+"DDoS protection and other tools to maintain a high level of security for "
+"your website and users."
+msgstr ""
+"Funguje na princípe proxy servera Anycast, ktorý presmeruje všetku prevádzku "
+"na váš web prostredníctvom siete optimalizovaných a zabezpečených serverov. "
+"Týmto spôsobom sa obsah stránky spracuje a optimalizuje skôr, ako sa dostane "
+"k vašim návštevníkom. Plugin tiež využíva inteligentné ukladanie do cache, "
+"kompresiu a minifikáciu súborov na zvýšenie rýchlosti načítania stránok a "
+"zníženie zaťaženia servera. Vďaka širokej škále bezpečnostných funkcií, ako "
+"je firewall, detekcia škodlivých robotov a ochrana pred útokmi DDoS, tento "
+"plugin zaručuje vysokú úroveň bezpečnosti pre vaše webové stránky a ich "
+"návštevníkov."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:138
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:142
+msgid "What exactly am I paying for?"
+msgstr "Za čo presne platím?"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:145
+msgid ""
+"For a small fee, you can use our services, which handle a lot of the hardest "
+"chores associated with running a website. This includes filtering unwanted "
+"traffic, detecting and blocking attacks, distributing content using a global "
+"miniCDN (Content Delivery Network), and caching content to optimize your "
+"web's overall performance worldwide."
+msgstr ""
+"Za malý poplatok získate prístup k našim službám, ktoré pre vás vyriešia "
+"najväčšie nepríjemnosti spojené s prevádzkou webu. Filtrujú nežiaducu "
+"prevádzku, detekujú a blokujú útoky, distribuujú obsah prostredníctvom "
+"globálnej siete miniCDN (Content Delivery Network) a ukladajú obsah do cache "
+"s cieľom optimalizovať výkon vášho webu po celom svete."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:148
+msgid ""
+"Our services cost a fraction of the price offered by our competition. You "
+"gain access to cutting-edge technology and know-how without the need to "
+"invest large sums of money. We offer an effective and affordable solution to "
+"your website performance and security needs."
+msgstr ""
+"Naše služby stoja zlomok cien, ktoré sú v ponuke konkurencie. Získate "
+"prístup k najmodernejším technológiám a skúsenostiam bez potreby veľkých "
+"investícií. Ponúkame efektívne a cenovo dostupné riešenie výkonu a "
+"zabezpečenia vašich webových stránok."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:156
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:160
+msgid "Do I need to register?"
+msgstr "Musím sa zaregistrovať?"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:163
+msgid ""
+"Yes, registration is necessary. It grants you access to our administration "
+"panel, where you can manage WEDOS Global and other services offered by our "
+"global infrastructure. After registering, we analyze your website to find "
+"out how to optimize its protection plan. Based ot this analysis, we deploy "
+"security measures, such as a web firewall, bot blocking, or access control. "
+"Your personal information is stored in accordance with GDPR, which regulates "
+"privacy, integrity and accessibility of personal information, as well as "
+"accessing, updating and deleting this data."
+msgstr ""
+"Áno, registrácia je nutná. Umožní vám prístup do administrácie, kde môžete "
+"spravovať službu WEDOS Global Protection a ďalšie služby našej "
+"infraštruktúry. Po registrácii urobíme analýzu vášho webu a navrhneme "
+"optimalizovaný návrh ochrany, napríklad prostredníctvom firewallu, "
+"blokovania robotov alebo obmedzenia prístupu. Vaše osobné údaje uchovávame v "
+"súlade s nariadením GDPR, ktoré upravuje ochranu súkromia, integritu a "
+"dostupnosť osobných údajov, ako aj prístup k nim, ich aktualizáciu a "
+"vymazanie."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:171
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:176
+msgid "Do you have an official website?"
+msgstr "Máte oficiálnu webovú stránku?"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:179
+msgid "Yes, the project website is wedos.global"
+msgstr "Áno, webová stránka projektu je wedos.global."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:187
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:191
+msgid "Can I try the service first?"
+msgstr "Môžem si službu najprv vyskúšať?"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:194
+msgid ""
+"Yes, you can test the service through a free trial to learn about its "
+"functions and decide whether it's the right solution for you."
+msgstr ""
+"Áno, môžete si vyskúšať bezplatnú skúšobnú verziu, aby ste preskúmali "
+"funkcie a rozhodli sa, či je to pre vás to správne riešenie."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:197
+msgid ""
+"We also offer a version for private use, which is also free. It is designed "
+"for individuals who want to protect their websites or projects without "
+"committing to the full-scale solution."
+msgstr ""
+"Ponúkame aj verziu na osobné použitie, ktorá je zadarmo. Je určená pre "
+"jednotlivcov, ktorí chcú chrániť svoje webové stránky alebo projekty, ale "
+"nevyžadujú komplexné riešenie."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:205
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:209
+msgid "Do you collect personal information?"
+msgstr "Zhromažďujete osobné údaje?"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:212
+msgid ""
+"Yes, we do collect some personal data, all in accordance with GDPR (General "
+"Data Protection Regulation). Our company keeps user privacy front-and-"
+"center, and handles personal information with the highest degree of "
+"responsibility. All your data is processed in a transparent and secure "
+"manner in accordance with law. We strive to collect the least amount of data "
+"possible to provide and improve our services."
+msgstr ""
+"Áno, zhromažďujeme určité údaje, a to v súlade s GDPR (General Data "
+"Protection Regulation). Naša spoločnosť dbá na ochranu súkromia používateľov "
+"a s údajmi zaobchádza maximálne zodpovedne. Spracovanie údajov je "
+"transparentné, bezpečné a v súlade so zákonom. Snažíme sa zhromažďovať len "
+"minimálne množstvo údajov potrebných na poskytovanie a zlepšovanie našich "
+"služieb."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:220
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:224
+msgid "What happens if I deactivate or uninstall the plugin?"
+msgstr "Čo sa stane, ak plugin deaktivujem alebo odinštalujem?"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:227
+msgid ""
+"Even after you unistall or deactivate the plugin, your WEDOS Global service "
+"will remain active. This means that even if you can no longer see the plugin "
+"in your WordPress administration, your domain is still protected. "
+"Deactivating or uninstalling the plugin therefore has no effect on an "
+"already protected domain. If you want to use the plugin features, you will "
+"need to reactivate or reinstall it. To completely cancel the WEDOS Global "
+"service and stop protecting your domain, you have to deactivate this "
+"protection via the administration panel at client.wedos.global."
+msgstr ""
+"Služba WEDOS Global zostane aktívna aj po deaktivácii alebo odinštalovaní "
+"pluginu. Vaša doména je preto chránená, aj keď plugin v administrácii "
+"WordPress nevidíte. Deaktivácia alebo odinštalovanie pluginu nemá na "
+"chránenú doménu žiadny vplyv. Ak chcete plugin opäť používať, opätovne ho "
+"aktivujte alebo nainštalujte. Ak chcete úplne zrušiť službu WEDOS Global "
+"Protection a prestať chrániť doménu, deaktivujte ochranu v administrácii "
+"client.wedos.global."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:248
+#, php-format
+msgid "Step %d"
+msgstr "Krok %d"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-layout.latte--4b061aa03b.php:384
+msgid "Failed to copy to clipboard."
+msgstr "Skopírovanie do schránky sa nepodarilo."
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-service_layout.latte--19a0950ab1.php:160
+msgid "Failed to go to previous step!"
+msgstr "Nie je možné prejsť na predchádzajúci krok!"
+
+#: admin/partials/wp-wgp/src/templates_c/src-html-service_layout.latte--19a0950ab1.php:203
+msgid "Failed to go to next step!"
+msgstr "Nie je možné prejsť na ďalší krok!"
+
+#: includes/class-wgpwpp-activator.php:65
+#, php-format
+msgid ""
+"PHP version needs to be at least %s to activate this plugin. Your PHP "
+"version is %s."
+msgstr ""
+"Ak chcete aktivovať plugin, musíte používať PHP vo verzii aspoň %s. Aktuálne "
+"používate verziu PHP %s."
+
+#: includes/class-wgpwpp-activator.php:76
+#, php-format
+msgid ""
+"WordPress version needs to be at least %s to activate this plugin. Your "
+"WordPress version is %s."
+msgstr ""
+"Ak chcete aktivovať plugin, musíte používať WordPress vo verzii minimálne "
+"%s. V súčasnosti používate WordPress vo verzii %s."
+
+#: includes/class-wgpwpp-activator.php:87
+msgid ""
+"WordPress REST API is unavailable. It must be available for the plugin to "
+"work properly."
+msgstr ""
+"WordPress REST API je nedostupné. Musí byť povolené, aby plugin fungoval "
+"správne."
+
+#: includes/class-wgpwpp-activator.php:112
+msgid ""
+"This plugin can be activated only from Network Administration panel in "
+"WordPress Multisite installation with Subdirectories network type."
+msgstr ""
+"Tento plugin môžete aktivovať iba v administrácii siete webov WordPress "
+"Multisite s typom siete podadresára."
+
+#: includes/class-wgpwpp-activator.php:216
+msgid "The REST API is available"
+msgstr "REST API je k dispozícii"
+
+#: includes/class-wgpwpp-activator.php:230
+msgid "The REST API encountered an error"
+msgstr "V REST API došlo k chybe"
+
+#: includes/class-wgpwpp-activator.php:234
+msgid "When testing the REST API, an error was encountered:"
+msgstr "Pri skúške WP REST API sa vyskytla chyba:"
+
+#: includes/class-wgpwpp-activator.php:237
+#, php-format
+msgid "REST API Endpoint: %s"
+msgstr "WP REST API Endpoint: %s"
+
+#: includes/class-wgpwpp-activator.php:242
+#, php-format
+msgid "REST API Response: (%1$s) %2$s"
+msgstr "Odpoveď z REST API: (%1$s) %2$s"
+
+#: includes/class-wgpwpp-client.php:166
+msgid "Client is not properly registered!"
+msgstr "Klient nie je správne registrovaný!"
+
+#: includes/class-wgpwpp-client.php:179
+msgid "Failed to gain access token from authorization server"
+msgstr "Nepodarilo sa získať prístupový token z autorizačného servera"
+
+#: includes/class-wgpwpp-client.php:288
+#, php-format
+msgid "WEDOS Global WordPress Plugin for domain %s"
+msgstr "WEDOS Global WordPress plugin domény %s"
+
+#: includes/class-wgpwpp-client.php:290
+msgid ""
+"OAuth2 client used by WGP WordPress Plugin for activation of WEDOS Global "
+"service and its maintanance."
+msgstr ""
+"Klient OAuth2 je používaný pluginom WGP WordPress pre aktiváciu služby WEDOS "
+"Global a jej údržbu."
+
+#: includes/class-wgpwpp-service.php:675 includes/class-wgpwpp-service.php:779
+msgid "An error occurred while connecting to WGP API"
+msgstr "Pri spojení s API WEDOS Global Protection došlo k chybe"
+
+#: includes/class-wgpwpp-service.php:680
+msgid "Invalid domain name"
+msgstr "Neplatná doména"
+
+#: includes/class-wgpwpp-service.php:684 includes/class-wgpwpp-service.php:788
+msgid "Domain not found"
+msgstr "Doména nebola naleznená"
+
+#: includes/class-wgpwpp-service.php:687 includes/class-wgpwpp-service.php:914
+msgid ""
+"Subdomains are not supported. Only second level domain names are supported."
+msgstr "Subdomény nie sú podporované. Podporované sú len domény druhej úrovne."
+
+#: includes/class-wgpwpp-service.php:689 includes/class-wgpwpp-service.php:915
+msgid "Unsupported TLD"
+msgstr "Nepodporovaná TLD"
+
+#: includes/class-wgpwpp-service.php:692 includes/class-wgpwpp-service.php:794
+#: includes/class-wgpwpp-service.php:916
+msgid "Unknown internal error"
+msgstr "Neznáma vnútorná chyba"
+
+#: includes/class-wgpwpp-service.php:784
+msgid "Validation failed"
+msgstr "Validácia zlyhala"
+
+#: includes/class-wgpwpp-service.php:906
+msgid "An error occurred while connecting to WGP API. Please try again later."
+msgstr ""
+"Pri vytváraní API spojenia s WEDOS Global Protection došlo k chybe. Skúste "
+"to prosím neskôr."
+
+#: includes/class-wgpwpp-service.php:912
+msgid "Invalid domain name format"
+msgstr "Neplatný názov domény"
+
+#: includes/class-wgpwpp-service.php:913
+msgid "Domain already exists for this account"
+msgstr "Služba WGP už bola pre túto doménu zriadená"
+
+#: includes/class-wgpwpp-wp-cache.php:706
+msgid "WEDOS Global page caching is enabled"
+msgstr "Cachovánie stránok WEDOS Global je povolené"
+
+#: includes/class-wgpwpp-wp-cache.php:706
+msgid "Performance"
+msgstr "Výkon"
+
+#: includes/class-wgpwpp-wp-cache.php:706
+msgid ""
+"Page caching loads your site faster for visitors, and allows your site to "
+"handle more traffic without overloading."
+msgstr ""
+"Ukladanie stránok do cache umožňuje rýchlejšie načítanie stránky pre "
+"návštevníkov a zároveň umožňuje webovému serveru zvládnuť vyššiu návštevnosť "
+"bez preťaženia."
+
+#: includes/class-wgpwpp-wp-cache.php:710
+msgid "Manage your plugins"
+msgstr "Správa pluginov"
+
+#: includes/class-wgpwpp-wp-cache.php:715
+#: includes/class-wgpwpp-wp-cache.php:745
+#: includes/class-wgpwpp-wp-cache.php:756
+msgid "WEDOS Global page caching is not installed correctly"
+msgstr "Inštalácia WEDOS Global cache neprebehla správne"
+
+#: includes/class-wgpwpp-wp-cache.php:716
+msgid ""
+"Looks like the WEDOS Global cache is not installed correctly. Please try to "
+"deactivate and activate it again on the plugin cache setting page."
+msgstr ""
+"Vyzerá to, že inštalácia WEDOS Global cache neprebehla správne. Skúste "
+"deaktivovať a znovu aktivovať cache na stránke nastavení pluginu WEDOS "
+"Global."
+
+#: includes/class-wgpwpp-wp-cache.php:725
+msgid "WEDOS Global page caching is being installed"
+msgstr "Prebieha inštalácia WEDOS Global cache"
+
+#: includes/class-wgpwpp-wp-cache.php:726
+msgid ""
+"WEDOS Global cache is being installed. This should only take a few seconds. "
+"If this message does not disappear, please try to deactivate and activate "
+"the the cache on the plugin cache setting page."
+msgstr ""
+"Inštaluje sa WEDOS Global cache. Počkajte niekoľko sekúnd. Ak táto správa "
+"nezmizne, skúste deaktivovať a znovu aktivovať cache na stránke nastavení "
+"pluginu WEDOS Global."
+
+#: includes/class-wgpwpp-wp-cache.php:735
+msgid "Page caching is disabled in wp-config.php"
+msgstr "Ukladanie stránok do cache je zablokované v súbore wp-config.php."
+
+#: includes/class-wgpwpp-wp-cache.php:736
+msgid ""
+"WEDOS Global cache is installed, but caching is disabled because the "
+"WP_CACHE directive is not defined in wp-config.php. Please try to deactivate "
+"and activate the cache on plugin cache setting page, or define WP_CACHE "
+"manually in wp-config.php"
+msgstr ""
+"WEDOS Globálna cache je nainštalovaný, ale cachovanie je zakázané absenciou "
+"príkazu WP_CACHE v súbore wp-config.php. Skúste zakázať a znovu povoliť "
+"cache na stránke s nastaveniami pluginu WEDOS Global alebo definujte "
+"WP_CACHE v súbore wp-config.php ručne."
+
+#: includes/class-wgpwpp-wp-cache.php:746
+msgid ""
+"Looks like the WEDOS Global cache is not installed correctly, advanced-cache."
+"php is missing. Please try to deactivate and activate the cache on the WEDOS "
+"Global plugin cache setting page."
+msgstr ""
+"Zdá sa, že WEDOS Global cache nie je správne nainštalovaný - chýba súbor "
+"advanced-cache.php. Skúste deaktivovať a znovu aktivovať cache na stránke s "
+"nastaveniami pluginu WEDOS Global."
+
+#: includes/class-wgpwpp-wp-cache.php:757
+msgid ""
+"Looks like the WEDOS Global cache is not installed correctly, invalid "
+"advanced-cache.php contents. Please try to deactivate and activate the cache "
+"on the WEDOS Global plugin cache setting page."
+msgstr ""
+"Zdá sa, že WEDOS Global cache nie je správne nainštalovaný - obsah advanced-"
+"cache.php vracia chybu. Skúste deaktivovať a znovu aktivovať cache na "
+"stránke s nastaveniami pluginu WEDOS Global."
+
+#: includes/class-wgpwpp-wp-cache.php:766
+msgid "Page caching directory is missing or not writable"
+msgstr "Adresár cache nebol nájdený alebo do neho nemožno zapisovať."
+
+#: includes/class-wgpwpp-wp-cache.php:767
+msgid ""
+"WEDOS Global cache is installed, but the cache directory is missing or not "
+"writable. Please check the wp-content/cache directory permissions in your "
+"hosting environment, then toggle the cache status on WEDOS Global plugin "
+"cache setting page."
+msgstr ""
+"WEDOS Global cache je nainštalovaný, ale históriu cachovania nemožno nájsť "
+"ani do nej zapisovať. Skontrolujte oprávnenia adresára wp-content/cache na "
+"vašom hostingu a potom obnovte cache na stránke nastavení pluginu WEDOS "
+"Global."
+
+#~ msgid "WEDOS Global (CDN Cache & Security)"
+#~ msgstr "WEDOS Global (CDN Cache & Security)"
+
+#~ msgid "WEDOS"
+#~ msgstr "WEDOS"
+
+#~ msgid ""
+#~ "Activate and use the WEDOS Global service. WEDOS Global brings global "
+#~ "security for your WordPress website, ensures low latency and minimal "
+#~ "loading time."
+#~ msgstr ""
+#~ "Aktivujte a používajte službu WEDOS Global. Služba WEDOS Global prináša "
+#~ "celosvetovú ochranu pre vaše webové stránky WordPress, zaručuje nízku "
+#~ "odozvu a minimalizuje čas načítania."
+
+#~ msgid "https://www.wedos.com/protection/#wgp-plugin"
+#~ msgstr "https://www.wedos.com/protection/#wgp-plugin"
+
+#~ msgid "https://www.wedos.com"
+#~ msgstr "https://www.wedos.sk"

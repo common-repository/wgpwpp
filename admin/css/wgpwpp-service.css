@@ -1,0 +1,22 @@
+#wpcontent {
+  padding: 0 !important;
+}
+
+#wpbody {
+  padding-bottom: 0 !important;
+}
+
+
+.wgpwpp-main-container {
+  padding: 20px 0;
+}
+
+.wgpwpp-service-info-table {
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.wgpwpp-service-info-table th, .wgpwpp-service-info-table td {
+  text-align: left;
+  padding: 5px;
+}
